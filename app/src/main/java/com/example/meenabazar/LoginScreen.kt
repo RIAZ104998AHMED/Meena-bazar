@@ -184,7 +184,6 @@ fun LoginScreen(
                     // Guest login
                     OutlinedButton(
                         onClick = {
-                            // Guest behavior can be added later
                         },
                         modifier = Modifier
                             .fillMaxWidth()
