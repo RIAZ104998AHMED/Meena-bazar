@@ -45,19 +45,15 @@ import com.example.meenabazar.ui.theme.SoftCream
 fun LoginScreen(
     onSignUpClick: () -> Unit
 ) {
-    Box(
-        modifier = Modifier.fillMaxSize()
-    ) {
+    Box(modifier = Modifier.fillMaxSize()) {
 
-        // Background
         Image(
             painter = painterResource(id = R.drawable.authorize_logo),
-            contentDescription = "Authorization background",
+            contentDescription = "Background",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
 
-        // Dark gradient overlay
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -77,26 +73,17 @@ fun LoginScreen(
                 .fillMaxSize()
                 .statusBarsPadding()
                 .navigationBarsPadding()
-                .padding(
-                    horizontal = 20.dp,
-                    vertical = 18.dp
-                )
+                .padding(horizontal = 20.dp, vertical = 18.dp)
         ) {
 
-            // Top login button
             Box(
                 modifier = Modifier.fillMaxWidth(),
                 contentAlignment = Alignment.TopEnd
             ) {
                 OutlinedButton(
-                    onClick = {
-                        // Login screen will be connected in RIAZ-5 / RIAZ-6
-                    },
+                    onClick = { },
                     shape = RoundedCornerShape(18.dp),
-                    border = BorderStroke(
-                        width = 1.dp,
-                        color = GlassBorder
-                    ),
+                    border = BorderStroke(1.dp, GlassBorder),
                     colors = ButtonDefaults.outlinedButtonColors(
                         containerColor = GlassWhite,
                         contentColor = CreamText
@@ -112,12 +99,10 @@ fun LoginScreen(
 
             Spacer(modifier = Modifier.weight(1f))
 
-            // Application title and subtitle
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-
                 Text(
                     text = stringResource(R.string.tittle),
                     color = CreamText,
@@ -126,35 +111,28 @@ fun LoginScreen(
                     letterSpacing = 1.sp
                 )
 
+                Spacer(modifier = Modifier.height(10.dp))
+
                 Text(
                     text = stringResource(R.string.subtittle),
                     color = SoftCream,
                     fontSize = 16.sp,
                     textAlign = TextAlign.Center,
                     lineHeight = 22.sp,
-                    modifier = Modifier.padding(
-                        top = 10.dp,
-                        start = 24.dp,
-                        end = 24.dp
-                    )
+                    modifier = Modifier.padding(horizontal = 24.dp)
                 )
             }
 
             Spacer(modifier = Modifier.weight(1f))
 
-            // Authentication action panel
             Surface(
                 modifier = Modifier
                     .fillMaxWidth()
                     .clip(RoundedCornerShape(28.dp)),
                 shape = RoundedCornerShape(28.dp),
                 color = GlassWhite,
-                border = BorderStroke(
-                    width = 1.dp,
-                    color = GlassBorder
-                )
+                border = BorderStroke(1.dp, GlassBorder)
             ) {
-
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -162,7 +140,6 @@ fun LoginScreen(
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
 
-                    // Sign Up
                     Button(
                         onClick = onSignUpClick,
                         modifier = Modifier
@@ -181,18 +158,13 @@ fun LoginScreen(
                         )
                     }
 
-                    // Guest login
                     OutlinedButton(
-                        onClick = {
-                        },
+                        onClick = { },
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(54.dp),
                         shape = RoundedCornerShape(18.dp),
-                        border = BorderStroke(
-                            width = 1.dp,
-                            color = GlassBorder
-                        ),
+                        border = BorderStroke(1.dp, GlassBorder),
                         colors = ButtonDefaults.outlinedButtonColors(
                             containerColor = GuestButton,
                             contentColor = CreamText
