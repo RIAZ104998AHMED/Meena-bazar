@@ -14,17 +14,25 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -34,19 +42,20 @@ fun SignUpScreenSimple(
     onSignUpClick: () -> Unit = {},
     onLoginClick: () -> Unit
 ) {
-    Box(
-        modifier = Modifier.fillMaxSize()
-    ) {
+    var name by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
+    var confirmPassword by remember { mutableStateOf("") }
 
-        // Background
+    Box(modifier = Modifier.fillMaxSize()) {
+
         Image(
             painter = painterResource(id = R.drawable.signuplogo),
-            contentDescription = "Sign up background",
+            contentDescription = "Background",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
 
-        // Gradient overlay
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -66,14 +75,10 @@ fun SignUpScreenSimple(
                 .fillMaxSize()
                 .statusBarsPadding()
                 .navigationBarsPadding()
-                .padding(
-                    horizontal = 20.dp,
-                    vertical = 16.dp
-                ),
+                .padding(horizontal = 20.dp, vertical = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-            // Back button
             OutlinedButton(
                 onClick = onBackClick,
                 shape = RoundedCornerShape(20.dp),
@@ -96,7 +101,6 @@ fun SignUpScreenSimple(
 
             Spacer(modifier = Modifier.height(80.dp))
 
-            // Screen title
             Text(
                 text = "Create Account",
                 color = Color.White,
@@ -114,7 +118,6 @@ fun SignUpScreenSimple(
 
             Spacer(modifier = Modifier.height(30.dp))
 
-            // Registration form container
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -129,8 +132,97 @@ fun SignUpScreenSimple(
                     )
                     .padding(16.dp)
             ) {
-                // Input fields will be added in the next session.
+
+                SimpleField(
+                    value = name,
+                    onValueChange = { name = it },
+                    hint = "Full Name"
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                SimpleField(
+                    value = email,
+                    onValueChange = { email = it },
+                    hint = "Email"
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                SimpleField(
+                    value = password,
+                    onValueChange = { password = it },
+                    hint = "Password",
+                    isPassword = true
+                )
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                SimpleField(
+                    value = confirmPassword,
+                    onValueChange = { confirmPassword = it },
+                    hint = "Confirm Password",
+                    isPassword = true
+                )
             }
         }
+    }
+}
+
+@Composable
+fun SimpleField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    hint: String,
+    isPassword: Boolean = false
+) {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(56.dp)
+            .background(
+                color = Color.White.copy(alpha = 0.14f),
+                shape = RoundedCornerShape(28.dp)
+            )
+            .border(
+                width = 1.dp,
+                color = Color.White.copy(alpha = 0.28f),
+                shape = RoundedCornerShape(28.dp)
+            ),
+        contentAlignment = Alignment.CenterStart
+    ) {
+        BasicTextField(
+            value = value,
+            onValueChange = onValueChange,
+            singleLine = true,
+            visualTransformation = if (isPassword) {
+                PasswordVisualTransformation()
+            } else {
+                VisualTransformation.None
+            },
+            textStyle = TextStyle(
+                color = Color.White,
+                fontSize = 16.sp
+            ),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 20.dp),
+            decorationBox = { innerTextField ->
+                Box(
+                    modifier = Modifier.fillMaxWidth(),
+                    contentAlignment = Alignment.CenterStart
+                ) {
+                    if (value.isEmpty()) {
+                        Text(
+                            text = hint,
+                            color = Color(0xFFD6D6D6),
+                            fontSize = 16.sp
+                        )
+                    }
+
+                    innerTextField()
+                }
+            }
+        )
     }
 }
