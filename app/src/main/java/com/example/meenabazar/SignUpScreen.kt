@@ -1,5 +1,6 @@
 package com.example.meenabazar
 
+import android.util.Patterns
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -15,8 +16,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedButton
@@ -52,6 +55,57 @@ fun SignUpScreenSimple(
     var password by remember { mutableStateOf("") }
     var confirmPassword by remember { mutableStateOf("") }
 
+    // Validation error states
+    var nameError by remember { mutableStateOf("") }
+    var emailError by remember { mutableStateOf("") }
+    var passwordError by remember { mutableStateOf("") }
+    var confirmPasswordError by remember { mutableStateOf("") }
+
+    fun validateInputs(): Boolean {
+
+        nameError = ""
+        emailError = ""
+        passwordError = ""
+        confirmPasswordError = ""
+
+        var isValid = true
+
+        // Full name validation
+        if (name.isBlank()) {
+            nameError = "Full name is required"
+            isValid = false
+        }
+
+        // Email validation
+        if (email.isBlank()) {
+            emailError = "Email is required"
+            isValid = false
+        } else if (!Patterns.EMAIL_ADDRESS.matcher(email.trim()).matches()) {
+            emailError = "Enter a valid email address"
+            isValid = false
+        }
+
+        // Password validation
+        if (password.isBlank()) {
+            passwordError = "Password is required"
+            isValid = false
+        } else if (password.length < 6) {
+            passwordError = "Password must contain at least 6 characters"
+            isValid = false
+        }
+
+        // Confirm password validation
+        if (confirmPassword.isBlank()) {
+            confirmPasswordError = "Confirm password is required"
+            isValid = false
+        } else if (password != confirmPassword) {
+            confirmPasswordError = "Passwords do not match"
+            isValid = false
+        }
+
+        return isValid
+    }
+
     Box(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -64,7 +118,7 @@ fun SignUpScreenSimple(
             contentScale = ContentScale.Crop
         )
 
-        // Dark gradient
+        // Gradient overlay
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -84,6 +138,7 @@ fun SignUpScreenSimple(
                 .fillMaxSize()
                 .statusBarsPadding()
                 .navigationBarsPadding()
+                .verticalScroll(rememberScrollState())
                 .padding(
                     horizontal = 20.dp,
                     vertical = 16.dp
@@ -112,11 +167,8 @@ fun SignUpScreenSimple(
                 )
             }
 
-            Spacer(
-                modifier = Modifier.height(80.dp)
-            )
+            Spacer(modifier = Modifier.height(60.dp))
 
-            // Screen title
             Text(
                 text = "Create Account",
                 color = Color.White,
@@ -124,20 +176,15 @@ fun SignUpScreenSimple(
                 fontWeight = FontWeight.Bold
             )
 
-            Spacer(
-                modifier = Modifier.height(8.dp)
-            )
+            Spacer(modifier = Modifier.height(8.dp))
 
-            // Subtitle
             Text(
                 text = "Join Meena Bazar and discover your style",
                 color = Color(0xFFE0E0E0),
                 fontSize = 14.sp
             )
 
-            Spacer(
-                modifier = Modifier.height(30.dp)
-            )
+            Spacer(modifier = Modifier.height(30.dp))
 
             // Registration form
             Column(
@@ -158,52 +205,76 @@ fun SignUpScreenSimple(
                 // Full Name
                 SimpleField(
                     value = name,
-                    onValueChange = { name = it },
+                    onValueChange = {
+                        name = it
+                        nameError = ""
+                    },
                     hint = "Full Name"
                 )
 
-                Spacer(
-                    modifier = Modifier.height(12.dp)
-                )
+                if (nameError.isNotEmpty()) {
+                    ValidationError(nameError)
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
 
                 // Email
                 SimpleField(
                     value = email,
-                    onValueChange = { email = it },
+                    onValueChange = {
+                        email = it
+                        emailError = ""
+                    },
                     hint = "Email"
                 )
 
-                Spacer(
-                    modifier = Modifier.height(12.dp)
-                )
+                if (emailError.isNotEmpty()) {
+                    ValidationError(emailError)
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
 
                 // Password
                 SimpleField(
                     value = password,
-                    onValueChange = { password = it },
+                    onValueChange = {
+                        password = it
+                        passwordError = ""
+                    },
                     hint = "Password",
                     isPassword = true
                 )
 
-                Spacer(
-                    modifier = Modifier.height(12.dp)
-                )
+                if (passwordError.isNotEmpty()) {
+                    ValidationError(passwordError)
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
 
                 // Confirm Password
                 SimpleField(
                     value = confirmPassword,
-                    onValueChange = { confirmPassword = it },
+                    onValueChange = {
+                        confirmPassword = it
+                        confirmPasswordError = ""
+                    },
                     hint = "Confirm Password",
                     isPassword = true
                 )
 
-                Spacer(
-                    modifier = Modifier.height(20.dp)
-                )
+                if (confirmPasswordError.isNotEmpty()) {
+                    ValidationError(confirmPasswordError)
+                }
 
-                // Sign Up button
+                Spacer(modifier = Modifier.height(20.dp))
+
+                // Existing Sign Up button
                 Button(
-                    onClick = onSignUpClick,
+                    onClick = {
+                        if (validateInputs()) {
+                            onSignUpClick()
+                        }
+                    },
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(56.dp),
@@ -220,11 +291,9 @@ fun SignUpScreenSimple(
                     )
                 }
 
-                Spacer(
-                    modifier = Modifier.height(16.dp)
-                )
+                Spacer(modifier = Modifier.height(16.dp))
 
-                // Login link
+                // Existing Login link
                 Row(
                     modifier = Modifier.align(
                         Alignment.CenterHorizontally
@@ -250,6 +319,8 @@ fun SignUpScreenSimple(
                     )
                 }
             }
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
     }
 }
@@ -283,23 +354,19 @@ fun SimpleField(
             value = value,
             onValueChange = onValueChange,
             singleLine = true,
-
             visualTransformation =
                 if (isPassword) {
                     PasswordVisualTransformation()
                 } else {
                     VisualTransformation.None
                 },
-
             textStyle = TextStyle(
                 color = Color.White,
                 fontSize = 16.sp
             ),
-
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp),
-
             decorationBox = { innerTextField ->
 
                 Box(
@@ -320,4 +387,22 @@ fun SimpleField(
             }
         )
     }
+}
+
+
+@Composable
+fun ValidationError(
+    message: String
+) {
+    Text(
+        text = message,
+        color = Color(0xFFFF6B6B),
+        fontSize = 12.sp,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(
+                start = 16.dp,
+                top = 4.dp
+            )
+    )
 }
