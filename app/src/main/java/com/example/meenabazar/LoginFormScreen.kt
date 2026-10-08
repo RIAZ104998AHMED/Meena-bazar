@@ -39,6 +39,7 @@ fun LoginFormScreen() {
         modifier = Modifier.fillMaxSize()
     ) {
 
+        // Background
         Image(
             painter = painterResource(id = R.drawable.authorize_logo),
             contentDescription = "Login background",
@@ -46,6 +47,7 @@ fun LoginFormScreen() {
             contentScale = ContentScale.Crop
         )
 
+        // Gradient
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -112,6 +114,7 @@ fun LoginFormScreen() {
                     .padding(16.dp)
             ) {
 
+                // Email input
                 SimpleField(
                     value = email,
                     onValueChange = {
@@ -124,6 +127,7 @@ fun LoginFormScreen() {
                     modifier = Modifier.height(12.dp)
                 )
 
+                // Password input
                 SimpleField(
                     value = password,
                     onValueChange = {
