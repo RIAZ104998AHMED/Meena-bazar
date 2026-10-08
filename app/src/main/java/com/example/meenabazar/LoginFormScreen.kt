@@ -1,10 +1,13 @@
 package com.example.meenabazar
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,6 +16,9 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -26,11 +32,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun LoginFormScreen() {
+fun LoginFormScreen(
+    onBackClick: () -> Unit = {},
+    onLoginClick: () -> Unit = {},
+    onSignUpClick: () -> Unit = {}
+) {
 
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
@@ -39,7 +50,7 @@ fun LoginFormScreen() {
         modifier = Modifier.fillMaxSize()
     ) {
 
-        // Background
+        // Background image
         Image(
             painter = painterResource(id = R.drawable.authorize_logo),
             contentDescription = "Login background",
@@ -47,7 +58,7 @@ fun LoginFormScreen() {
             contentScale = ContentScale.Crop
         )
 
-        // Gradient
+        // Gradient overlay
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -74,8 +85,29 @@ fun LoginFormScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            // Back button
+            OutlinedButton(
+                onClick = onBackClick,
+                modifier = Modifier.align(Alignment.Start),
+                shape = RoundedCornerShape(20.dp),
+                border = BorderStroke(
+                    width = 1.dp,
+                    color = Color.White.copy(alpha = 0.4f)
+                ),
+                colors = ButtonDefaults.outlinedButtonColors(
+                    containerColor = Color.White.copy(alpha = 0.10f),
+                    contentColor = Color.White
+                )
+            ) {
+                Text(
+                    text = "← Back",
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.SemiBold
+                )
+            }
+
             Spacer(
-                modifier = Modifier.height(120.dp)
+                modifier = Modifier.height(70.dp)
             )
 
             Text(
@@ -99,6 +131,7 @@ fun LoginFormScreen() {
                 modifier = Modifier.height(30.dp)
             )
 
+            // Login form
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -114,7 +147,7 @@ fun LoginFormScreen() {
                     .padding(16.dp)
             ) {
 
-                // Email input
+                // Email
                 SimpleField(
                     value = email,
                     onValueChange = {
@@ -127,7 +160,7 @@ fun LoginFormScreen() {
                     modifier = Modifier.height(12.dp)
                 )
 
-                // Password input
+                // Password
                 SimpleField(
                     value = password,
                     onValueChange = {
@@ -136,6 +169,59 @@ fun LoginFormScreen() {
                     hint = "Password",
                     isPassword = true
                 )
+
+                Spacer(
+                    modifier = Modifier.height(20.dp)
+                )
+
+                // Log In button
+                Button(
+                    onClick = onLoginClick,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(56.dp),
+                    shape = RoundedCornerShape(28.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFFD2A15B),
+                        contentColor = Color.White
+                    )
+                ) {
+                    Text(
+                        text = "Log In",
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+
+                Spacer(
+                    modifier = Modifier.height(16.dp)
+                )
+
+                // Sign Up option
+                Row(
+                    modifier = Modifier.align(
+                        Alignment.CenterHorizontally
+                    ),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+
+                    Text(
+                        text = "Don't have an account? ",
+                        color = Color.LightGray,
+                        fontSize = 14.sp
+                    )
+
+                    Text(
+                        text = "Sign Up",
+                        color = Color(0xFFD2A15B),
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Bold,
+                        textDecoration = TextDecoration.Underline,
+                        modifier = Modifier.clickable {
+                            onSignUpClick()
+                        }
+                    )
+                }
             }
         }
     }
