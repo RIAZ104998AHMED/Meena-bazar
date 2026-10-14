@@ -28,7 +28,6 @@ class MainActivity : ComponentActivity() {
 
                 when (screen) {
 
-                    // Authorization / welcome screen
                     "authorization" -> LoginScreen(
                         onSignUpClick = {
                             screen = "signup"
@@ -38,7 +37,6 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    // Login form
                     "login" -> LoginFormScreen(
                         onBackClick = {
                             screen = "authorization"
@@ -51,13 +49,12 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    // Sign-up form
                     "signup" -> SignUpScreenSimple(
                         onBackClick = {
                             screen = "authorization"
                         },
                         onSignUpClick = {
-                            // Backend account creation is not implemented yet
+                            // Backend registration is not implemented yet
                         },
                         onLoginClick = {
                             screen = "login"
