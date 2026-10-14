@@ -43,8 +43,9 @@ import com.example.meenabazar.ui.theme.SoftCream
 
 @Composable
 fun LoginScreen(
-    onSignUpClick: () -> Unit
-) {
+    onSignUpClick: () -> Unit,
+    onLoginClick: () -> Unit
+){
     Box(modifier = Modifier.fillMaxSize()) {
 
         Image(
@@ -159,7 +160,7 @@ fun LoginScreen(
                     }
 
                     OutlinedButton(
-                        onClick = { },
+                        onClick = onLoginClick,
                         modifier = Modifier
                             .fillMaxWidth()
                             .height(54.dp),
