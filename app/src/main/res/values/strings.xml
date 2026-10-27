@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Минабазар</string>
+    <string name="login_as_guest">Login as Guest</string>
+    <string name="sign_up">Sign up</string>
+    <string name="subtittle">Твой стиль, твой выбор, твой базар.</string>
+    <string name="tittle">Минабазар</string>
+    <string name="log_in">Log in</string>
+</resources>
