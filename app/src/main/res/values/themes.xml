@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="Theme.Meenabazar" parent="Theme.Material3.DayNight.NoActionBar" />
-
-    <style name="Theme.Meenabazar.Splash" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@android:color/black</item>
+﻿<resources>
+    <style name="Theme.Meenabazar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
     </style>
-
+    <style name="Theme.Meenabazar.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#254D3E</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_brand</item>
+        <item name="postSplashScreenTheme">@style/Theme.Meenabazar</item>
+    </style>
 </resources>
