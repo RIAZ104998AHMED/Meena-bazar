@@ -1,0 +1,788 @@
+11-19 01:21:54.014  6679  6695 I TestRunner: started: guestCanSearchAndReturnToCatalogUsingSystemBack(com.example.meenabazar.ShoppingFlowTest)
+11-19 01:21:54.056  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3dd8) locale list changing from [] to [en-US]
+11-19 01:21:54.076  6679  6695 W FileTestStorage: Output properties is not supported.
+11-19 01:21:54.077  6679  6695 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-19 01:21:54.080  6679  6679 D EventInjectionStrategy: Creating injection strategy with input manager.
+11-19 01:21:54.093  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+11-19 01:21:54.094  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+11-19 01:21:54.096  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+11-19 01:21:54.104  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+11-19 01:21:54.105  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+11-19 01:21:54.105  6679  6679 I mple.meenabazar: hiddenapi: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+11-19 01:21:54.116  6679  6695 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@7c60af8]
+11-19 01:21:54.144  6679  6695 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-19 01:21:54.151  6679  6695 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-19 01:21:54.155  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea40f8) locale list changing from [] to [en-US]
+11-19 01:21:54.158   716  1805 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10222, packageName = null, attributionTag = null, token = android.os.Binder@2d1030d, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-19 01:21:54.190   538   597 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-19 01:21:54.195  1439  1439 W SplitSelectStateCtor: Missing session instanceIds
+11-19 01:21:54.195  1439  1439 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-19 01:21:54.199   538   538 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-19 01:21:54.202  1168  1294 I ndroid.systemui: AssetManager2(0x77a07eed4e38) locale list changing from [] to [en-US]
+11-19 01:21:54.254  1168  1296 D SplashScreenView: Build android.window.SplashScreenView{d5f2334 V.E...... ......ID 0,0-0,0}
+11-19 01:21:54.254  1168  1296 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-19 01:21:54.254  1168  1296 D SplashScreenView: Branding: view: android.view.View{c74055d G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-19 01:21:54.263  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb98b8) locale list changing from [] to [en-US]
+11-19 01:21:54.279  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb9598) locale list changing from [] to [en-US]
+11-19 01:21:54.337  6679  6679 I mple.meenabazar: AssetManager2(0x77a07ee90878) locale list changing from [] to [en-US]
+11-19 01:21:54.351  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: PRE_ON_CREATE
+11-19 01:21:54.352  6679  6679 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-19 01:21:54.475  6679  6679 D CompatChangeReporter: Compat change id reported: 309578419; UID 10222; state: ENABLED
+11-19 01:21:54.487  6679  6679 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-19 01:21:54.504  1439  1439 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 01:21:54.517  1439  1439 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+11-19 01:21:54.611  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec34f8) locale list changing from [] to [en-US]
+11-19 01:21:54.620  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb8c38) locale list changing from [] to [en-US]
+11-19 01:21:54.641  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec1f18) locale list changing from [] to [en-US]
+11-19 01:21:54.648  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea40f8) locale list changing from [] to [en-US]
+11-19 01:21:54.650  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb66b8) locale list changing from [] to [en-US]
+11-19 01:21:54.652  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3dd8) locale list changing from [] to [en-US]
+11-19 01:21:54.652  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: CREATED
+11-19 01:21:54.654  6679  6679 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.meenabazar.MainActivity@cdfae27
+11-19 01:21:54.655  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: STARTED
+11-19 01:21:54.658  6679  6679 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.meenabazar.MainActivity@cdfae27
+11-19 01:21:54.659  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebab78) locale list changing from [] to [en-US]
+11-19 01:21:54.659  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe6d8) locale list changing from [] to [en-US]
+11-19 01:21:54.660  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4a98) locale list changing from [] to [en-US]
+11-19 01:21:54.689  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb6cf8) locale list changing from [] to [en-US]
+11-19 01:21:54.692  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: RESUMED
+11-19 01:21:54.692  6679  6679 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.meenabazar.MainActivity@cdfae27
+11-19 01:21:54.696  6679  6679 D CompatChangeReporter: Compat change id reported: 352594277; UID 10222; state: ENABLED
+11-19 01:21:54.733  6679  6679 D CompatChangeReporter: Compat change id reported: 349153669; UID 10222; state: ENABLED
+11-19 01:21:54.749  1414  1414 D wpa_supplicant: nl80211: Drv Event 64 (NL80211_CMD_NOTIFY_CQM) received for wlan0
+11-19 01:21:54.749  1414  1414 D wpa_supplicant: nl80211: Beacon loss event
+11-19 01:21:54.749  1414  1414 D wpa_supplicant: wlan0: Event BEACON_LOSS (53) received
+11-19 01:21:54.749  1414  1414 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS
+11-19 01:21:54.753  6679  6679 W HWUI    : Unknown dataspace 0
+11-19 01:21:54.777  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebb7f8) locale list changing from [] to [en-US]
+11-19 01:21:54.780  6679  6700 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-19 01:21:54.781  6679  6700 I EGL_emulation: Opening libGLESv2_emulation.so
+11-19 01:21:54.782  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6038) locale list changing from [] to [en-US]
+11-19 01:21:54.789  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb98b8) locale list changing from [] to [en-US]
+11-19 01:21:54.793  6679  6700 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-19 01:21:54.804  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebc478) locale list changing from [] to [en-US]
+11-19 01:21:54.808  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea53b8) locale list changing from [] to [en-US]
+11-19 01:21:54.811  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaeff8) locale list changing from [] to [en-US]
+11-19 01:21:54.813  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead6f8) locale list changing from [] to [en-US]
+11-19 01:21:54.816  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9d9d8) locale list changing from [] to [en-US]
+11-19 01:21:54.820  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2838) locale list changing from [] to [en-US]
+11-19 01:21:54.823  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeacd98) locale list changing from [] to [en-US]
+11-19 01:21:54.830  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb3af8) locale list changing from [] to [en-US]
+11-19 01:21:54.844  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2e78) locale list changing from [] to [en-US]
+11-19 01:21:54.871  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead0b8) locale list changing from [] to [en-US]
+11-19 01:21:54.875  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee98898) locale list changing from [] to [en-US]
+11-19 01:21:54.882  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee91e58) locale list changing from [] to [en-US]
+11-19 01:21:54.891  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebd738) locale list changing from [] to [en-US]
+11-19 01:21:54.899  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99e78) locale list changing from [] to [en-US]
+11-19 01:21:54.906  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9b778) locale list changing from [] to [en-US]
+11-19 01:21:54.918  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe3b8) locale list changing from [] to [en-US]
+11-19 01:21:54.933  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e658) locale list changing from [] to [en-US]
+11-19 01:21:54.938  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaf958) locale list changing from [] to [en-US]
+11-19 01:21:54.948  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaa4f8) locale list changing from [] to [en-US]
+11-19 01:21:54.956  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ff58) locale list changing from [] to [en-US]
+11-19 01:21:55.025  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea21b8) locale list changing from [] to [en-US]
+11-19 01:21:55.089  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee96c78) locale list changing from [] to [en-US]
+11-19 01:21:55.127   716  1072 D WifiClientModeImpl[97118:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2447 RxLinkSpeed=2
+11-19 01:21:55.127  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea21b8) locale list changing from [] to [en-US]
+11-19 01:21:55.127   716  1072 D WifiDataStall: tx tput in kbps: 11000
+11-19 01:21:55.127   716  1072 D WifiDataStall: rx tput in kbps: 11000
+11-19 01:21:55.127   716  1072 V WifiConfigManager: Updating scan detail cache freq=2447 BSSID=00:13:10:85:fe:01 RSSI=-50 for "AndroidWifi"NONE
+11-19 01:21:55.127   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:55.127   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:55.127   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:55.127   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:55.128   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:55.128   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:55.128   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:55.128   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:55.128   716  1072 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 1910408911 SSID: "AndroidWifi", BSSID: 00:13:10:85:fe:01, MAC: 02:15:b4:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 11Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 11Mbps, Frequency: 2447MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-19 01:21:55.128   716  1072 D WifiScoreCard: txRate: 1 txSpeed: 1
+11-19 01:21:55.128   716  1072 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 1080068558 RSSI -50 txSpeed -1
+11-19 01:21:55.128   716  1072 D WifiClientModeImpl[97118:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 00:13:10:85:fe:01 rssi=-50 f=2447 sc=60 link=1 tx=0.0, 0.0, 0.0 rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:-270214600] score=60
+11-19 01:21:55.135  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee8f8d8) locale list changing from [] to [en-US]
+11-19 01:21:55.140  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea24d8) locale list changing from [] to [en-US]
+11-19 01:21:55.144  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e338) locale list changing from [] to [en-US]
+11-19 01:21:55.150  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaa4f8) locale list changing from [] to [en-US]
+11-19 01:21:55.157  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee94a18) locale list changing from [] to [en-US]
+11-19 01:21:55.158  6679  6679 W HWUI    : Image decoding logging dropped!
+11-19 01:21:55.179  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaf958) locale list changing from [] to [en-US]
+11-19 01:21:55.188  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e658) locale list changing from [] to [en-US]
+11-19 01:21:55.238  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6678) locale list changing from [] to [en-US]
+11-19 01:21:55.245  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe3b8) locale list changing from [] to [en-US]
+11-19 01:21:55.248  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea0bd8) locale list changing from [] to [en-US]
+11-19 01:21:55.252  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9b778) locale list changing from [] to [en-US]
+11-19 01:21:55.254  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee93118) locale list changing from [] to [en-US]
+11-19 01:21:55.254  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee98898) locale list changing from [] to [en-US]
+11-19 01:21:55.256  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead0b8) locale list changing from [] to [en-US]
+11-19 01:21:55.257  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaff98) locale list changing from [] to [en-US]
+11-19 01:21:55.262  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2e78) locale list changing from [] to [en-US]
+11-19 01:21:55.263  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb3af8) locale list changing from [] to [en-US]
+11-19 01:21:55.265  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee940b8) locale list changing from [] to [en-US]
+11-19 01:21:55.270  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea0ef8) locale list changing from [] to [en-US]
+11-19 01:21:55.278  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeacd98) locale list changing from [] to [en-US]
+11-19 01:21:55.286  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6998) locale list changing from [] to [en-US]
+11-19 01:21:55.291  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaeff8) locale list changing from [] to [en-US]
+11-19 01:21:55.299  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea53b8) locale list changing from [] to [en-US]
+11-19 01:21:55.304  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebc478) locale list changing from [] to [en-US]
+11-19 01:21:55.309  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead6f8) locale list changing from [] to [en-US]
+11-19 01:21:55.313  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb5d58) locale list changing from [] to [en-US]
+11-19 01:21:55.316  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb98b8) locale list changing from [] to [en-US]
+11-19 01:21:55.319  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4a98) locale list changing from [] to [en-US]
+11-19 01:21:55.320  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe6d8) locale list changing from [] to [en-US]
+11-19 01:21:55.322  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebab78) locale list changing from [] to [en-US]
+11-19 01:21:55.323  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3dd8) locale list changing from [] to [en-US]
+11-19 01:21:55.324  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb66b8) locale list changing from [] to [en-US]
+11-19 01:21:55.328  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea40f8) locale list changing from [] to [en-US]
+11-19 01:21:55.329  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec1f18) locale list changing from [] to [en-US]
+11-19 01:21:55.333  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb6cf8) locale list changing from [] to [en-US]
+11-19 01:21:55.336  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec34f8) locale list changing from [] to [en-US]
+11-19 01:21:55.338  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99518) locale list changing from [] to [en-US]
+11-19 01:21:55.340  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3ab8) locale list changing from [] to [en-US]
+11-19 01:21:55.343  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb8c38) locale list changing from [] to [en-US]
+11-19 01:21:55.346  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ec98) locale list changing from [] to [en-US]
+11-19 01:21:55.348  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9a7d8) locale list changing from [] to [en-US]
+11-19 01:21:55.357  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99b58) locale list changing from [] to [en-US]
+11-19 01:21:55.365  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaca78) locale list changing from [] to [en-US]
+11-19 01:21:55.369  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb08f8) locale list changing from [] to [en-US]
+11-19 01:21:55.378  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb34b8) locale list changing from [] to [en-US]
+11-19 01:21:55.387  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea4418) locale list changing from [] to [en-US]
+11-19 01:21:55.393  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaa1d8) locale list changing from [] to [en-US]
+11-19 01:21:55.403  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6cb8) locale list changing from [] to [en-US]
+11-19 01:21:55.412  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaf638) locale list changing from [] to [en-US]
+11-19 01:21:55.421  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeae9b8) locale list changing from [] to [en-US]
+11-19 01:21:55.423  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea9b98) locale list changing from [] to [en-US]
+11-19 01:21:55.424  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea4d78) locale list changing from [] to [en-US]
+11-19 01:21:55.428  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea7938) locale list changing from [] to [en-US]
+11-19 01:21:55.432  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeada18) locale list changing from [] to [en-US]
+11-19 01:21:55.439  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1578) locale list changing from [] to [en-US]
+11-19 01:21:55.442  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeadd38) locale list changing from [] to [en-US]
+11-19 01:21:55.447  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea8298) locale list changing from [] to [en-US]
+11-19 01:21:55.450  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1258) locale list changing from [] to [en-US]
+11-19 01:21:55.456  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb0f38) locale list changing from [] to [en-US]
+11-19 01:21:55.459  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb21f8) locale list changing from [] to [en-US]
+11-19 01:21:55.462  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaa818) locale list changing from [] to [en-US]
+11-19 01:21:55.468  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee92498) locale list changing from [] to [en-US]
+11-19 01:21:55.471  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeae698) locale list changing from [] to [en-US]
+11-19 01:21:55.472  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea59f8) locale list changing from [] to [en-US]
+11-19 01:21:55.478  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaae58) locale list changing from [] to [en-US]
+11-19 01:21:55.483  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea27f8) locale list changing from [] to [en-US]
+11-19 01:21:55.492  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1bb8) locale list changing from [] to [en-US]
+11-19 01:21:55.512   538   597 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10222 pid=0
+11-19 01:21:55.512   538   597 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10222 => denied (483 us)
+11-19 01:21:55.512   538   597 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10222 pid=0
+11-19 01:21:55.512   538   597 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10222 => denied (111 us)
+11-19 01:21:55.513   538   597 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10222 pid=0
+11-19 01:21:55.513   538   597 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10222 => denied (264 us)
+11-19 01:21:55.513  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb5a38) locale list changing from [] to [en-US]
+11-19 01:21:55.539  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebcab8) locale list changing from [] to [en-US]
+11-19 01:21:55.548  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea85b8) locale list changing from [] to [en-US]
+11-19 01:21:55.554  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4458) locale list changing from [] to [en-US]
+11-19 01:21:55.559  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec15b8) locale list changing from [] to [en-US]
+11-19 01:21:55.569  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb6398) locale list changing from [] to [en-US]
+11-19 01:21:55.575  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebae98) locale list changing from [] to [en-US]
+11-19 01:21:55.583  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7658) locale list changing from [] to [en-US]
+11-19 01:21:55.589  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb8f58) locale list changing from [] to [en-US]
+11-19 01:21:55.602  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb53f8) locale list changing from [] to [en-US]
+11-19 01:21:55.605  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7338) locale list changing from [] to [en-US]
+11-19 01:21:55.616  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4778) locale list changing from [] to [en-US]
+11-19 01:21:55.671  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2518) locale list changing from [] to [en-US]
+11-19 01:21:55.684  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2b58) locale list changing from [] to [en-US]
+11-19 01:21:55.695  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaf318) locale list changing from [] to [en-US]
+11-19 01:21:55.700  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb3198) locale list changing from [] to [en-US]
+11-19 01:21:55.709  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb5718) locale list changing from [] to [en-US]
+11-19 01:21:55.728  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaecd8) locale list changing from [] to [en-US]
+11-19 01:21:55.865  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4a98) locale list changing from [] to [en-US]
+11-19 01:21:55.880  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9cd58) locale list changing from [] to [en-US]
+11-19 01:21:55.902  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9f918) locale list changing from [] to [en-US]
+11-19 01:21:55.910  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3478) locale list changing from [] to [en-US]
+11-19 01:21:55.912  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9c0d8) locale list changing from [] to [en-US]
+11-19 01:21:55.922  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7978) locale list changing from [] to [en-US]
+11-19 01:21:55.930  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee978f8) locale list changing from [] to [en-US]
+11-19 01:21:55.933  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb8f58) locale list changing from [] to [en-US]
+11-19 01:21:55.938  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7658) locale list changing from [] to [en-US]
+11-19 01:21:55.939  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebae98) locale list changing from [] to [en-US]
+11-19 01:21:55.954  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebbb18) locale list changing from [] to [en-US]
+11-19 01:21:55.957  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb6398) locale list changing from [] to [en-US]
+11-19 01:21:55.962  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe098) locale list changing from [] to [en-US]
+11-19 01:21:55.970  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec15b8) locale list changing from [] to [en-US]
+11-19 01:21:56.017  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4458) locale list changing from [] to [en-US]
+11-19 01:21:56.019  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea85b8) locale list changing from [] to [en-US]
+11-19 01:21:56.034  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4138) locale list changing from [] to [en-US]
+11-19 01:21:56.047  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb9bd8) locale list changing from [] to [en-US]
+11-19 01:21:56.051  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1bb8) locale list changing from [] to [en-US]
+11-19 01:21:56.059  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb50d8) locale list changing from [] to [en-US]
+11-19 01:21:56.066  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea27f8) locale list changing from [] to [en-US]
+11-19 01:21:56.068  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaae58) locale list changing from [] to [en-US]
+11-19 01:21:56.094  6679  6679 I Choreographer: Skipped 72 frames!  The application may be doing too much work on its main thread.
+11-19 01:21:56.095   716  1812 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10222 pid=0
+11-19 01:21:56.095   716  1812 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10222 => denied (124 us)
+11-19 01:21:56.095   716  1812 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10222 pid=0
+11-19 01:21:56.095   716  1812 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10222 => denied (20 us)
+11-19 01:21:56.095   716  1812 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10222 pid=0
+11-19 01:21:56.095   716  1812 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10222 => denied (8 us)
+11-19 01:21:56.104   716   742 I ActivityTaskManager: Displayed com.example.meenabazar/.MainActivity for user 0: +1s946ms
+11-19 01:21:56.125  1439  1439 D BaseDepthController: setSurface:
+11-19 01:21:56.125  1439  1439 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-19 01:21:56.125  1439  1439 D BaseDepthController: 	mBaseSurface: null
+11-19 01:21:56.125  1439  1439 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+11-19 01:21:56.129  1439  1439 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-19 01:21:56.129  1439  1439 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:4)
+11-19 01:21:56.129  1439  1439 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:1)
+11-19 01:21:56.129  1439  1439 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 43e00d9cd0eb17b3d9dd30fc1741b1c71445c4c0f7c8c9b81300265c86c5b873:34)
+11-19 01:21:56.129  1439  1439 D StatsLog: LAUNCHER_ONSTOP
+11-19 01:21:56.131  1439  1439 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+11-19 01:21:56.139  1168  1294 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@7653ea0
+11-19 01:21:56.179   463   491 I netd    : tetherGetStats() -> {[]} <0.40ms>
+11-19 01:21:56.185   716   909 I ImeTracker: com.example.meenabazar:7bef379f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-19 01:21:56.200  6679  6708 I HWUI    : Davey! duration=1239ms; Flags=1, FrameTimelineVsyncId=28575, IntendedVsync=801090907143, Vsync=801090907143, InputEventId=0, HandleInputStart=801098123930, AnimationStart=801098127109, PerformTraversalsStart=801098129872, DrawStart=801830561457, FrameDeadline=801107573809, FrameStartTime=801098101788, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=801867302962, SyncStart=801868794894, IssueDrawCommandsStart=801869086751, SwapBuffers=802225320095, FrameCompleted=802332161003, DequeueBufferDuration=3943, QueueBufferDuration=23441198, GpuCompleted=802332100042, SwapBuffersCompleted=802332161003, DisplayPresentTime=0, CommandSubmissionCompleted=802225320095,
+11-19 01:21:56.210  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+11-19 01:21:56.210   716  1142 I ImeTracker: system_server:99dba65: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-19 01:21:56.211  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-19 01:21:56.214  3095  3113 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-19 01:21:56.215  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+11-19 01:21:56.220  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:56.220  3095  3113 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} [CONTEXT service_id=132 ]
+11-19 01:21:56.222  6679  6679 D InsetsController: hide(ime(), fromIme=false)
+11-19 01:21:56.222  6679  6679 I ImeTracker: com.example.meenabazar:7bef379f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-19 01:21:56.224   716   745 I ImeTracker: system_server:99dba65: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-19 01:21:56.226  3095  3113 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false}, isVf false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-19 01:21:56.244  3095  3184 I FontLog : Pulling font file for id = 19, cache size = 5 [CONTEXT service_id=132 ]
+11-19 01:21:56.281  3095  3113 I FontLog : Pulling font file for id = 19, cache size = 5 [CONTEXT service_id=132 ]
+11-19 01:21:56.360  1439  1446 W System  : A resource failed to call release.
+11-19 01:21:56.360  1439  1446 W System  : A resource failed to call release.
+11-19 01:21:56.360  1439  1446 W System  : A resource failed to call release.
+11-19 01:21:56.383  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec2b98) locale list changing from [] to [en-US]
+11-19 01:21:56.386  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee92498) locale list changing from [] to [en-US]
+11-19 01:21:56.391  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeae698) locale list changing from [] to [en-US]
+11-19 01:21:56.402  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeac118) locale list changing from [] to [en-US]
+11-19 01:21:56.411  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb21f8) locale list changing from [] to [en-US]
+11-19 01:21:56.418  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb37d8) locale list changing from [] to [en-US]
+11-19 01:21:56.420  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea8298) locale list changing from [] to [en-US]
+11-19 01:21:56.427  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeadd38) locale list changing from [] to [en-US]
+11-19 01:21:56.435  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe9f8) locale list changing from [] to [en-US]
+11-19 01:21:56.444  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeada18) locale list changing from [] to [en-US]
+11-19 01:21:56.451  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1578) locale list changing from [] to [en-US]
+11-19 01:21:56.465  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1ed8) locale list changing from [] to [en-US]
+11-19 01:21:56.472  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaab38) locale list changing from [] to [en-US]
+11-19 01:21:56.479  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea7938) locale list changing from [] to [en-US]
+11-19 01:21:56.489  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaf638) locale list changing from [] to [en-US]
+11-19 01:21:56.500  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaa1d8) locale list changing from [] to [en-US]
+11-19 01:21:56.534  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb05d8) locale list changing from [] to [en-US]
+11-19 01:21:56.543  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb34b8) locale list changing from [] to [en-US]
+11-19 01:21:56.572  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb1898) locale list changing from [] to [en-US]
+11-19 01:21:56.575  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e018) locale list changing from [] to [en-US]
+11-19 01:21:56.589  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb08f8) locale list changing from [] to [en-US]
+11-19 01:21:56.594  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaca78) locale list changing from [] to [en-US]
+11-19 01:21:56.595  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99b58) locale list changing from [] to [en-US]
+11-19 01:21:56.598  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea9878) locale list changing from [] to [en-US]
+11-19 01:21:56.604  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ec98) locale list changing from [] to [en-US]
+11-19 01:21:56.611  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ca38) locale list changing from [] to [en-US]
+11-19 01:21:56.618  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb8c38) locale list changing from [] to [en-US]
+11-19 01:21:56.619  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3ab8) locale list changing from [] to [en-US]
+11-19 01:21:56.622  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea9eb8) locale list changing from [] to [en-US]
+11-19 01:21:56.627  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb6cf8) locale list changing from [] to [en-US]
+11-19 01:21:56.631  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea40f8) locale list changing from [] to [en-US]
+11-19 01:21:56.632  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3dd8) locale list changing from [] to [en-US]
+11-19 01:21:56.636  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebe6d8) locale list changing from [] to [en-US]
+11-19 01:21:56.642  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebb7f8) locale list changing from [] to [en-US]
+11-19 01:21:56.643  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb98b8) locale list changing from [] to [en-US]
+11-19 01:21:56.645  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6038) locale list changing from [] to [en-US]
+11-19 01:21:56.652  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead6f8) locale list changing from [] to [en-US]
+11-19 01:21:56.658  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb5d58) locale list changing from [] to [en-US]
+11-19 01:21:56.671  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebc478) locale list changing from [] to [en-US]
+11-19 01:21:56.672  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6998) locale list changing from [] to [en-US]
+11-19 01:21:56.673  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9d9d8) locale list changing from [] to [en-US]
+11-19 01:21:56.679  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeacd98) locale list changing from [] to [en-US]
+11-19 01:21:56.680  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaeff8) locale list changing from [] to [en-US]
+11-19 01:21:56.681  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee940b8) locale list changing from [] to [en-US]
+11-19 01:21:56.685  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea0ef8) locale list changing from [] to [en-US]
+11-19 01:21:56.686  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeaff98) locale list changing from [] to [en-US]
+11-19 01:21:56.687  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eead0b8) locale list changing from [] to [en-US]
+11-19 01:21:56.690  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3798) locale list changing from [] to [en-US]
+11-19 01:21:56.691  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee98898) locale list changing from [] to [en-US]
+11-19 01:21:56.692  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee8e938) locale list changing from [] to [en-US]
+11-19 01:21:56.699  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee93118) locale list changing from [] to [en-US]
+11-19 01:21:56.699  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9b778) locale list changing from [] to [en-US]
+11-19 01:21:56.701  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb2e78) locale list changing from [] to [en-US]
+11-19 01:21:56.701  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebd738) locale list changing from [] to [en-US]
+11-19 01:21:56.702  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99e78) locale list changing from [] to [en-US]
+11-19 01:21:56.706  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea0bd8) locale list changing from [] to [en-US]
+11-19 01:21:56.706  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea3158) locale list changing from [] to [en-US]
+11-19 01:21:56.707  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e658) locale list changing from [] to [en-US]
+11-19 01:21:56.710  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea6678) locale list changing from [] to [en-US]
+11-19 01:21:56.710  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ff58) locale list changing from [] to [en-US]
+11-19 01:21:56.712  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9e338) locale list changing from [] to [en-US]
+11-19 01:21:56.714  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea24d8) locale list changing from [] to [en-US]
+11-19 01:21:56.719  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea21b8) locale list changing from [] to [en-US]
+11-19 01:21:56.727  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee96c78) locale list changing from [] to [en-US]
+11-19 01:21:56.728  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebb4d8) locale list changing from [] to [en-US]
+11-19 01:21:56.729  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb3e18) locale list changing from [] to [en-US]
+11-19 01:21:56.729  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9d398) locale list changing from [] to [en-US]
+11-19 01:21:56.735  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7018) locale list changing from [] to [en-US]
+11-19 01:21:56.738  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eec3818) locale list changing from [] to [en-US]
+11-19 01:21:56.739  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea88d8) locale list changing from [] to [en-US]
+11-19 01:21:56.742  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebda58) locale list changing from [] to [en-US]
+11-19 01:21:56.746  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb82d8) locale list changing from [] to [en-US]
+11-19 01:21:56.748  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeba538) locale list changing from [] to [en-US]
+11-19 01:21:56.755  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea8f18) locale list changing from [] to [en-US]
+11-19 01:21:56.756  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeab178) locale list changing from [] to [en-US]
+11-19 01:21:56.759  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9dcf8) locale list changing from [] to [en-US]
+11-19 01:21:56.764  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea08b8) locale list changing from [] to [en-US]
+11-19 01:21:56.764  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea8bf8) locale list changing from [] to [en-US]
+11-19 01:21:56.776  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9f2d8) locale list changing from [] to [en-US]
+11-19 01:21:56.786  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee959b8) locale list changing from [] to [en-US]
+11-19 01:21:56.799  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9d078) locale list changing from [] to [en-US]
+11-19 01:21:56.811  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea1e98) locale list changing from [] to [en-US]
+11-19 01:21:56.823  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee99838) locale list changing from [] to [en-US]
+11-19 01:21:56.832  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9ba98) locale list changing from [] to [en-US]
+11-19 01:21:56.844  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee98bb8) locale list changing from [] to [en-US]
+11-19 01:21:56.850  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea7f78) locale list changing from [] to [en-US]
+11-19 01:21:56.864  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9b138) locale list changing from [] to [en-US]
+11-19 01:21:56.870  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea1b78) locale list changing from [] to [en-US]
+11-19 01:21:56.872  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea5098) locale list changing from [] to [en-US]
+11-19 01:21:56.881  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9efb8) locale list changing from [] to [en-US]
+11-19 01:21:56.888  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeab498) locale list changing from [] to [en-US]
+11-19 01:21:56.893  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea1538) locale list changing from [] to [en-US]
+11-19 01:21:56.898  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee95058) locale list changing from [] to [en-US]
+11-19 01:21:56.907  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea2e38) locale list changing from [] to [en-US]
+11-19 01:21:56.913  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea2b18) locale list changing from [] to [en-US]
+11-19 01:21:56.924  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9aaf8) locale list changing from [] to [en-US]
+11-19 01:21:56.947  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee95698) locale list changing from [] to [en-US]
+11-19 01:21:56.956  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb7c98) locale list changing from [] to [en-US]
+11-19 01:21:56.976  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eeb4db8) locale list changing from [] to [en-US]
+11-19 01:21:56.986  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9f5f8) locale list changing from [] to [en-US]
+11-19 01:21:56.994  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eebb1b8) locale list changing from [] to [en-US]
+11-19 01:21:57.003  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07ee9a198) locale list changing from [] to [en-US]
+11-19 01:21:57.017  1697  1771 I .apps.wellbeing: AssetManager2(0x77a07eea1218) locale list changing from [] to [en-US]
+11-19 01:21:57.113  6679  6679 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+11-19 01:21:57.744  6679  6679 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+11-19 01:21:57.787  6679  6692 I HWUI    : Davey! duration=1350ms; Flags=0, FrameTimelineVsyncId=28788, IntendedVsync=802640907081, Vsync=803340907053, InputEventId=0, HandleInputStart=803356855158, AnimationStart=803356857005, PerformTraversalsStart=803357246309, DrawStart=803357539318, FrameDeadline=802824240407, FrameStartTime=803356440480, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=803371139051, SyncStart=803371169276, IssueDrawCommandsStart=803371256132, SwapBuffers=803926599029, FrameCompleted=803991587694, DequeueBufferDuration=3184, QueueBufferDuration=475199, GpuCompleted=803991587694, SwapBuffersCompleted=803982937821, DisplayPresentTime=0, CommandSubmissionCompleted=803926599029,
+11-19 01:21:57.835  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+11-19 01:21:57.836  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+11-19 01:21:57.837  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, false)
+11-19 01:21:57.840  6679  6679 D InsetsController: show(ime(), fromIme=false)
+11-19 01:21:57.845  6679  6679 I ImeTracker: com.example.meenabazar:2985e1: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false
+11-19 01:21:57.877   463   491 I netd    : tetherGetStats() -> {[]} <0.38ms>
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1688 Failed to get the input connection call's result.
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 136820 nanoseconds delay) for qfs@7563f71[status=PENDING, info=[task=[running=[RUNNING ON ICWrapper-1], euq@973a156]]]
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at qcq.get(PG:52)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kcs.e(PG:10)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kcs.d(PG:20)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kcs.s(PG:56)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kfo.k(PG:7)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kfo.j(PG:40)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kfo.f(PG:37)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at dbj.v(PG:90)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at kgn.onStartInput(PG:206)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:338)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-19 01:21:57.939  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-19 01:21:57.941  1659  1659 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1609 IPC IC_REQUEST_CURSOR_UPDATES took 101 ms
+11-19 01:21:57.942  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:57.942  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, true)
+11-19 01:21:57.943  1659  1659 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-19 01:21:58.036  6679  6679 I ImeTracker: com.example.meenabazar:dd7f26dc: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+11-19 01:21:58.037  6679  6679 D InsetsController: show(ime(), fromIme=false)
+11-19 01:21:58.038  6679  6679 I ImeTracker: com.example.meenabazar:dd7f26dc: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: InputConnectionWrapper.waitForInputConnectionFutureInternal():1688 Failed to get the input connection call's result.
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: java.util.concurrent.TimeoutException: Waited 100 milliseconds (plus 1 milliseconds, 20618 nanoseconds delay) for qfs@7c2fec4[status=PENDING, info=[task=[running=[NOT STARTED YET], euq@73e61ad]]]
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at qcq.get(PG:52)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kcs.e(PG:10)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kcs.d(PG:20)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kcs.s(PG:56)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kfo.k(PG:7)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kfo.j(PG:40)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kfo.f(PG:37)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at dbj.v(PG:90)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at kgn.onStartInput(PG:206)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.restartInput(InputMethodService.java:891)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:906)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.os.Looper.loopOnce(Looper.java:248)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.os.Looper.loop(Looper.java:338)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+11-19 01:21:58.045  1659  1659 E InputConnectionWrapper: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+11-19 01:21:58.045  1659  1659 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1609 IPC IC_REQUEST_CURSOR_UPDATES took 102 ms
+11-19 01:21:58.047  6679  6679 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+11-19 01:21:58.048  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:58.055  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1392 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=11, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}}, false)
+11-19 01:21:58.055  1659  1659 I StylusEducationPopupDialog: StylusEducationPopupDialog.onEditorTappedWithStylus():71 Schedule to show first time education
+11-19 01:21:58.057  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():161 systemKeyboardHeightRatio:1.000000.
+11-19 01:21:58.069  1659  1659 I AndroidIME: InputBundleManager.loadActiveInputBundleId():483 loadActiveInputBundleId: en-US, ime_english_united_states
+11-19 01:21:58.069  1659  1659 I AndroidIME: AbstractIme.onActivate():90 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=11, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+11-19 01:21:58.072  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:58.079  1659  1659 I Delight5Facilitator: Delight5Facilitator.initializeForIme():729 initializeForIme() : Locale = [en_US], layout = qwerty
+11-19 01:21:58.082  1659  1659 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1256 inline flag updated to:false
+11-19 01:21:58.087  1659  1659 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1256 inline flag updated to:false
+11-19 01:21:58.094  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:58.098  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:58.106  1659  1659 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():562 activateKeyboard(): type=prime, status=0, imeDef=kyj{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.libraries.inputmethod.ime.experiment.ExperimentImeWrapper, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kyb{#0x7f0b021c=TypedValue{t=0x3/d=0x0 "writing_helper_enable_by_word_revert=false"}, #0x7f0b0222=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.latin5.LatinIme"}, #0x7f0b0223=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.edittracker.EditTrackingImeWrapper"}, #0x7f0b0224=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.latin5.LatinIme"}}, processors=lac@74826c6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@eff07a6, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true}
+11-19 01:21:58.106  1659  1659 I KeyboardManager: KeyboardManager.requestKeyboard():248 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true
+11-19 01:21:58.107  1659  1659 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():212 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@3264cf3
+11-19 01:21:58.107  1659  1659 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():589 doActivateKeyboard(): prime
+11-19 01:21:58.114  1659  1659 I KeyboardViewHelper: KeyboardViewHelper.getView():178 Get view with height ratio:1.000000
+11-19 01:21:58.130   716  1072 D WifiClientModeImpl[97118:wlan0]: updateLinkLayerStatsRssiSpeedFrequencyCapabilities rssi=-50 TxLinkspeed=1 freq=2447 RxLinkSpeed=2
+11-19 01:21:58.131   716  1072 D WifiDataStall: tx tput in kbps: 11000
+11-19 01:21:58.131   716  1072 D WifiDataStall: rx tput in kbps: 11000
+11-19 01:21:58.131   716  1072 V WifiConfigManager: Updating scan detail cache freq=2447 BSSID=00:13:10:85:fe:01 RSSI=-50 for "AndroidWifi"NONE
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  utilization (LLS) 80 isBluetoothConnected: false final utilization: 80
+11-19 01:21:58.133   716  1072 D WifiThroughputPredictor:  BW: 0 RSSI: -50 Nss: 1 Mode: 1 symDur: 4000 snrDb 30 bitPerTone: 4500 rate: 54 throughput: 11
+11-19 01:21:58.134   716  1072 D WifiScoreCard: BSSID update SIGNAL_POLL ID: 1910408911 SSID: "AndroidWifi", BSSID: 00:13:10:85:fe:01, MAC: 02:15:b4:00:00:00, IP: /10.0.2.16, Security type: 0, Supplicant state: COMPLETED, Wi-Fi standard: legacy, RSSI: -50, Link speed: 1Mbps, Tx Link speed: 1Mbps, Max Supported Tx Link speed: 11Mbps, Rx Link speed: 2Mbps, Max Supported Rx Link speed: 11Mbps, Frequency: 2447MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"AndroidWifi"openMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>
+11-19 01:21:58.134   716  1072 D WifiScoreCard: txRate: 1 txSpeed: 1
+11-19 01:21:58.134   716  1072 D WifiScoreCard: network update SIGNAL_POLL "AndroidWifi" ID: 1080068558 RSSI -50 txSpeed -1
+11-19 01:21:58.134   716  1072 D WifiClientModeImpl[97118:wlan0]:  ClientModeImpl$L2ConnectedState screen=on 1 0 "AndroidWifi" 00:13:10:85:fe:01 rssi=-50 f=2447 sc=60 link=1 tx=0.0, 0.0, 0.0 rx=0.0 bcn=0 [on:0 tx:0 rx:0 period:3006] from screen [on:0 period:-270211594] score=60
+11-19 01:21:58.152  1659  1659 W HWUI    : Image decoding logging dropped!
+11-19 01:21:58.153  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.156  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.getKeyboardInitialStates():131
+11-19 01:21:58.157  1659  1659 W Keyboard: Keyboard.getKeyboardViewHelper():597 null helper is returned: keyboardDef=kze{processedConditions={enable_more_candidates_view_for_multilingual=false, layout_9key_split=false, enable_secondary_symbols=false, language=en-US, deprecate_long_press_space_for_ime_picker=false, expressions=normal, enable_flick_symbols=true, variant=qwerty, device=phone, keyboard_mode=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f17065e, #0x7f1708dc], initialStates=0, keyboardViewDefs=[kzt{direction=null, id=#0x7f0b0166, isScalable=true, layoutId=#0x7f0e0346, type=BODY, touchable=true, defaultShow=true}, kzt{direction=null, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e01db, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kzt{direction=LOCALE, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e04da, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e05ce, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kkl@58245ad, kkl@a8090e2, kkl@5aebc73, null], context.getResources().getConfiguration(): {1.0 ?mcc0mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.9 fontWeightAdjustment=0}
+11-19 01:21:58.158  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.168  1659  1659 I AndroidIME: InputBundleManager.startInput():361 startInput() with kzp[keyboardType=prime, payload=null]
+11-19 01:21:58.169  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onActivate():70
+11-19 01:21:58.171  1659  1659 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():109 Failed to get default browser. The default browser may be deactivated.
+11-19 01:21:58.172  1659  1659 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020165, callback=cbb@b907fed, lastModifier=2, keyCodes=[56], actions=[0]}
+11-19 01:21:58.172  1659  1659 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020165, callback=cbb@8d9a670, lastModifier=0, keyCodes=[317], actions=[0]}
+11-19 01:21:58.174  1659  1659 I HardKeyTracker: HardKeyTracker.registerKeySequence():138 Register key sequence lsr{labelResId=2132020165, callback=cbb@6914531, lastModifier=2, keyCodes=[56], actions=[0]}
+11-19 01:21:58.174  1659  1659 I HardKeyTracker: HardKeyTracker.registerKeySequence():138 Register key sequence lsr{labelResId=2132020165, callback=cbb@3770f84, lastModifier=0, keyCodes=[317], actions=[0]}
+11-19 01:21:58.175  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():100 cancelShutdown()
+11-19 01:21:58.175  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():112 syncLanguagePacks()
+11-19 01:21:58.176  1659  1659 I VoiceInputManager: VoiceInputManager.onKeyboardActivated():1023 onKeyboardActivated() [UD]
+11-19 01:21:58.178  1659  1659 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():322 Accessory input mode started: null
+11-19 01:21:58.178  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10160, DEACTIVATE_SUPPLEMENTARY_KEYBOARD, data=accessory_candidates_consumer}
+11-19 01:21:58.179  1659  1659 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():160 keyboard accessory_candidates_consumer is not activated before!
+11-19 01:21:58.185  1659  4539 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():161 maybeScheduleAutoPackDownloadForFallback()
+11-19 01:21:58.257  1659  4539 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():198 maybeScheduleAutoPackDownload() for language tag en-US
+11-19 01:21:58.263  1659  1659 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():437 inch: 0.000000 ydpi: 420.000000 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 420 defaultDensityDpi: 420 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -126 navBarHeight: 126
+11-19 01:21:58.264  1659  1659 I ResizableKeyboardModeController: ResizableKeyboardModeController.getKeyboardBottomOffset():182 currentPrimeKeyboardType:SOFT keyboardBottomOffset:0 navBarHeight:126 isInLandscape:false
+11-19 01:21:58.264  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.264  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.264  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.264  1659  1659 W ExtensionWrapper: ExtensionWrapper.setExtensionViewVisibility():801 interface koa is not activate
+11-19 01:21:58.283  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:58.286  1659  1659 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():469 No private IME option set to start voice input.
+11-19 01:21:58.329  2299  2299 D BoundBrokerSvc: onBind: Intent { act=com.google.firebase.dynamiclinks.service.START xflg=0x4 pkg=com.google.android.gms }
+11-19 01:21:58.329  2299  2299 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.firebase.dynamiclinks.service.START xflg=0x4 pkg=com.google.android.gms }
+11-19 01:21:58.336  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.336  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.336  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():166
+11-19 01:21:58.340  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notify():159 mub[bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0, isTrustable=true, displayId=0]; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+11-19 01:21:58.361   716   909 I ImeTracker: com.example.meenabazar:510bbc75: onRequestShow at ORIGIN_SERVER reason ATTACH_NEW_INPUT fromUser false
+11-19 01:21:58.461  6679  6679 W RemoteInputConnectionImpl: getSurroundingText on inactive InputConnection
+11-19 01:21:58.482  1659  1928 W putmethod.latin: Long monitor contention with owner Back-P10-11 (6354) at boolean android.os.MessageQueue.enqueueMessageLegacy(android.os.Message, long)(MessageQueue.java:1388) waiters=0 in android.os.Message android.os.MessageQueue.nextLegacy() for 204ms
+11-19 01:21:58.488  6679  6679 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.meenabazar
+11-19 01:21:58.494  6679  6679 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+11-19 01:21:58.507  6679  6679 I ImeTracker: com.example.meenabazar:2985e1: onShown
+11-19 01:21:58.512  6679  6679 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+11-19 01:21:58.527  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10181, UNIVERSAL_DICTATION_NO_PUNCTUATION, data=false}
+11-19 01:21:58.530  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-20001, ENABLE_GESTURE_TYPING, data=null}
+11-19 01:21:58.531  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10126, INPUT_SELECTION_CHANGED, data=null}
+11-19 01:21:58.541  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{ea981a4 V.E...... ........ 0,0-1080,116}
+11-19 01:21:58.542  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.542  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 W InputContextProxy: InputContextProxy.applyClientDiffInternal():957 Ignore [FetchSuggestions] diff due to stale request: 45<46, inputStateId=23, lastInputStateId=24
+11-19 01:21:58.543  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{b7b3e17 V.E...... ........ 0,0-1080,641}
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():96 Not show new language banner: no change in enabled input method entries
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.543  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.552  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10044, UPDATE_KEYBOARD_LAYOUT, data=# qsn@533a82fd}
+11-19 01:21:58.552  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10188, SET_KEYBOARD_LAYOUT, data=# qsn@17fd96a2}
+11-19 01:21:58.552  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-400000, SPELL_CHECK_SUGGESTIONS, data=null}
+11-19 01:21:58.552  1659  1659 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():154 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+11-19 01:21:58.552  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10044, UPDATE_KEYBOARD_LAYOUT, data=# qsn@533a82fd}
+11-19 01:21:58.553  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10188, SET_KEYBOARD_LAYOUT, data=# qsn@17fd96a2}
+11-19 01:21:58.554  1659  2234 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():521 setKeyboardLayout()
+11-19 01:21:58.560  1659  2234 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():521 setKeyboardLayout()
+11-19 01:21:58.574  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.574  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.599  1659  1659 I StylusEducationPopupDialog: StylusEducationPopupDialog.showFirstTimeEducation():91 First time education not shown for null
+11-19 01:21:58.599  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=404], hintText=null, hintLocales=[]}}, true)
+11-19 01:21:58.599  1659  1659 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-19 01:21:58.599  1659  1659 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1795026117943, INPUT_VIEW_SESSION=1795026118055, TRAINING_CACHE_SESSION=1795026118072, IME_SESSION=1795026118069}], ending it now.
+11-19 01:21:58.599  1659  1659 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1795026117943, INPUT_VIEW_SESSION=1795026118055, TRAINING_CACHE_SESSION=1795026118072, IME_SESSION=1795026118069}], ending it now.
+11-19 01:21:58.705  1659  1659 W InputConnectionWrapper: InputConnectionWrapper.recordDuration():1609 IPC IC_REQUEST_CURSOR_UPDATES took 105 ms
+11-19 01:21:58.708  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:58.713  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1392 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=11, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}}, true)
+11-19 01:21:58.722  1659  1659 I StylusEducationPopupDialog: StylusEducationPopupDialog.onEditorTappedWithStylus():71 Schedule to show first time education
+11-19 01:21:58.723  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():161 systemKeyboardHeightRatio:1.000000.
+11-19 01:21:58.732  6679  6679 W FrameTracker: Missed SF frame:JANK_COMPOSER, 29009, 45858478, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.meenabazar>
+11-19 01:21:58.806  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-20002, DISABLE_GESTURE_TYPING, data=null}
+11-19 01:21:58.806  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:58.808  1659  1659 I AndroidIME: AbstractIme.onDeactivate():203 LatinIme.onDeactivate()
+11-19 01:21:58.809  1659  1659 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+11-19 01:21:58.812  1659  1659 I AndroidIME: InputBundleManager.loadActiveInputBundleId():483 loadActiveInputBundleId: en-US, ime_english_united_states
+11-19 01:21:58.817  1659  1659 I AndroidIME: AbstractIme.onActivate():90 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.meenabazar, inputType=8001, inputTypeString=Normal[AutoCorrect], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=2000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=11, androidx.core.view.inputmethod.EditorInfoCompat.STYLUS_HANDWRITING_ENABLED=true, android.support.text.emoji.emojiCompat_replaceAll=false}], hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+11-19 01:21:58.818  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10181, UNIVERSAL_DICTATION_NO_PUNCTUATION, data=false}
+11-19 01:21:58.821  1659  1659 I Delight5Facilitator: Delight5Facilitator.initializeForIme():729 initializeForIme() : Locale = [en_US], layout = qwerty
+11-19 01:21:58.826  1659  1659 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1256 inline flag updated to:false
+11-19 01:21:58.827  1659  1659 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1256 inline flag updated to:false
+11-19 01:21:58.850  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10181, UNIVERSAL_DICTATION_NO_PUNCTUATION, data=false}
+11-19 01:21:58.898  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-20001, ENABLE_GESTURE_TYPING, data=null}
+11-19 01:21:58.899  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:58.900  1659  1659 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():562 activateKeyboard(): type=prime, status=0, imeDef=kyj{stringId=ime_english_united_states, language=en-US, languageTag=en-US, processedConditions={enable_number_row=false, device=phone}, className=com.google.android.libraries.inputmethod.ime.experiment.ExperimentImeWrapper, label=0, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=US, displayAppCompletions=true, extraValues=kyb{#0x7f0b021c=TypedValue{t=0x3/d=0x0 "writing_helper_enable_by_word_revert=false"}, #0x7f0b0222=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.latin5.LatinIme"}, #0x7f0b0223=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.edittracker.EditTrackingImeWrapper"}, #0x7f0b0224=TypedValue{t=0x3/d=0x0 "com.google.android.apps.inputmethod.libs.latin5.LatinIme"}}, processors=lac@74826c6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=true, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@eff07a6, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=true}
+11-19 01:21:58.900  1659  1659 I KeyboardManager: KeyboardManager.requestKeyboard():248 Creating keyboard prime, imeId=ime_english_united_states, cacheKey=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true
+11-19 01:21:58.901  1659  1659 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():212 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPrimeKeyboard@3264cf3
+11-19 01:21:58.901  1659  1659 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():589 doActivateKeyboard(): prime
+11-19 01:21:58.914  6679  6679 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+11-19 01:21:58.914  6679  6679 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-19 01:21:58.926  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.927  1659  1659 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():154 Tooltip with id undo_access_point_promotion_banner not found in tooltipManager.
+11-19 01:21:58.927  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.getKeyboardInitialStates():131
+11-19 01:21:58.927  1659  1659 W Keyboard: Keyboard.getKeyboardViewHelper():597 null helper is returned: keyboardDef=kze{processedConditions={enable_more_candidates_view_for_multilingual=false, layout_9key_split=false, enable_secondary_symbols=false, language=en-US, deprecate_long_press_space_for_ime_picker=false, expressions=normal, enable_flick_symbols=true, variant=qwerty, device=phone, keyboard_mode=normal, show_secondary_digits=true, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPrimeKeyboard, resourceIds=[#0x7f17065e, #0x7f1708dc], initialStates=0, keyboardViewDefs=[kzt{direction=null, id=#0x7f0b0166, isScalable=true, layoutId=#0x7f0e0346, type=BODY, touchable=true, defaultShow=true}, kzt{direction=null, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e01db, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kzt{direction=LOCALE, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e04da, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e05ce, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kkl@58245ad, kkl@a8090e2, kkl@5aebc73, null], context.getResources().getConfiguration(): {1.0 ?mcc0mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.9 fontWeightAdjustment=0}
+11-19 01:21:58.928  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.928  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10121, SET_KEY_CORRECTION_CALLBACK, data=jfb@7bc057}
+11-19 01:21:58.929  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-20001, ENABLE_GESTURE_TYPING, data=null}
+11-19 01:21:58.929  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10065, UPDATE_CURRENT_IME_LOCALES, data=[en_US]}
+11-19 01:21:58.929  1659  1659 I AndroidIME: InputBundleManager.startInput():361 startInput() with kzp[keyboardType=prime, payload=null]
+11-19 01:21:58.929  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onDeactivate():104
+11-19 01:21:58.938  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():122 shutdown()
+11-19 01:21:58.939  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onActivate():70
+11-19 01:21:58.940  1659  1659 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():109 Failed to get default browser. The default browser may be deactivated.
+11-19 01:21:58.945  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():100 cancelShutdown()
+11-19 01:21:58.945  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():112 syncLanguagePacks()
+11-19 01:21:58.945  1659  4539 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():161 maybeScheduleAutoPackDownloadForFallback()
+11-19 01:21:58.945  1659  4539 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():198 maybeScheduleAutoPackDownload() for language tag en-US
+11-19 01:21:58.945  1659  1659 I VoiceInputManager: VoiceInputManager.onKeyboardActivated():1023 onKeyboardActivated() [UD]
+11-19 01:21:58.948  1659  1659 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():322 Accessory input mode started: null
+11-19 01:21:58.954  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10160, DEACTIVATE_SUPPLEMENTARY_KEYBOARD, data=accessory_candidates_consumer}
+11-19 01:21:58.955  1659  1659 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():160 keyboard accessory_candidates_consumer is not activated before!
+11-19 01:21:58.956  1659  1659 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():437 inch: 0.000000 ydpi: 420.000000 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 420 defaultDensityDpi: 420 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -126 navBarHeight: 126
+11-19 01:21:58.956  1659  1659 I ResizableKeyboardModeController: ResizableKeyboardModeController.getKeyboardBottomOffset():182 currentPrimeKeyboardType:SOFT keyboardBottomOffset:0 navBarHeight:126 isInLandscape:false
+11-19 01:21:58.956  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.956  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.956  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.956  1659  1659 W ExtensionWrapper: ExtensionWrapper.setExtensionViewVisibility():801 interface koa is not activate
+11-19 01:21:58.962  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:58.970  1659  1659 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():469 No private IME option set to start voice input.
+11-19 01:21:58.974  1659  1659 W InputContextProxy: InputContextProxy.applyClientDiffInternal():957 Ignore [FetchSuggestions] diff due to stale request: 47<51, inputStateId=25, lastInputStateId=27
+11-19 01:21:58.979  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.979  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.989  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():166
+11-19 01:21:58.990  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notify():159 mub[bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0, isTrustable=true, displayId=0]; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+11-19 01:21:58.997  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{ea981a4 V.E...... ........ 0,0-1080,116}
+11-19 01:21:58.999  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:58.999  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.003  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.003  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.003  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{b7b3e17 V.E...... ........ 0,0-1080,641}
+11-19 01:21:59.004  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.004  1659  1659 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():96 Not show new language banner: no change in enabled input method entries
+11-19 01:21:59.004  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.004  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.004  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.005  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10044, UPDATE_KEYBOARD_LAYOUT, data=# qsn@533a82fd}
+11-19 01:21:59.012  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10188, SET_KEYBOARD_LAYOUT, data=# qsn@17fd96a2}
+11-19 01:21:59.013  1659  2234 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():521 setKeyboardLayout()
+11-19 01:21:59.023  1659  1659 I StylusEducationPopupDialog: StylusEducationPopupDialog.showFirstTimeEducation():91 First time education not shown for null
+11-19 01:21:59.030  1659  2231 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():510 No input action collection in this session, skip logging.
+11-19 01:21:59.062  6679  6679 D InsetsController: hide(ime(), fromIme=false)
+11-19 01:21:59.064  6679  6679 I ImeTracker: com.example.meenabazar:4f81898c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_BY_INSETS_API fromUser false
+11-19 01:21:59.064  6679  6679 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@a72bd36
+11-19 01:21:59.075  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, true)
+11-19 01:21:59.076  1659  1659 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+11-19 01:21:59.076  1659  1659 W SessionManager: SessionManager.endSession():96 Child session [INPUT_VIEW_SESSION] is not ended while ending session [{INPUT_SESSION=1795026118599, INPUT_VIEW_SESSION=1795026118721, TRAINING_CACHE_SESSION=1795026118818, IME_SESSION=1795026118813}], ending it now.
+11-19 01:21:59.076  1659  1659 W SessionManager: SessionManager.endSession():96 Child session [IME_SESSION] is not ended while ending session [{INPUT_SESSION=1795026118599, INPUT_VIEW_SESSION=1795026118721, TRAINING_CACHE_SESSION=1795026118818, IME_SESSION=1795026118813}], ending it now.
+11-19 01:21:59.081  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:59.083  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1392 onStartInputView(EditorInfo{EditorInfo{packageName=com.example.meenabazar, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, true)
+11-19 01:21:59.084  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.getOemKeyboardHeightRatio():161 systemKeyboardHeightRatio:1.000000.
+11-19 01:21:59.100   716  2796 I ImeTracker: system_server:b3ca722f: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-19 01:21:59.123   463   491 I netd    : tetherGetStats() -> {[]} <0.33ms>
+11-19 01:21:59.179  1659  1659 I InputContextChangeTracker: InputContextChangeTracker.fixLyingSelectionRangeFromSurroundingText():1665 fixLyingSelectionRangeFromSurroundingText(): [-1, -1]([-1, -1]) -> [0, 0]([0, 0])
+11-19 01:21:59.182  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-20002, DISABLE_GESTURE_TYPING, data=null}
+11-19 01:21:59.182  1659  1659 I InputBundle: InputBundle.consumeEvent():949 Skip consuming an event as keyboard status is 0
+11-19 01:21:59.183  1659  1659 I AndroidIME: AbstractIme.onDeactivate():203 LatinIme.onDeactivate()
+11-19 01:21:59.183  1659  1659 W SessionManager: SessionManager.endSession():88 Try to end a not begun session [IME_SESSION].
+11-19 01:21:59.186  1659  1659 I AndroidIME: InputBundleManager.loadActiveInputBundleId():483 loadActiveInputBundleId: und-Latn-x-password, password
+11-19 01:21:59.187  1659  1659 I AndroidIME: AbstractIme.onActivate():90 PasswordIme.onActivate() : EditorInfo = EditorInfo{packageName=com.example.meenabazar, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+11-19 01:21:59.189  1659  1659 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():562 activateKeyboard(): type=prime, status=0, imeDef=kyj{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={variant=qwerty, enable_access_points_in_password_number=false, enable_number_row=false, device=phone}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019061, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@74826c6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@8ad0687, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}
+11-19 01:21:59.190  1659  1659 I KeyboardManager: KeyboardManager.requestKeyboard():248 Creating keyboard prime, imeId=password, cacheKey=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true
+11-19 01:21:59.192  6679  6679 I ImeTracker: com.example.meenabazar:510bbc75: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+11-19 01:21:59.195  1659  1659 I KeyboardWrapper: KeyboardWrapper.onKeyboardReady():212 onKeyboardReady(): type=prime(prime), kb=com.google.android.apps.inputmethod.latin.keyboard.LatinPasswordKeyboard@14b1158
+11-19 01:21:59.209  1659  1659 I KeyboardWrapper: KeyboardWrapper.doActivateKeyboard():589 doActivateKeyboard(): prime
+11-19 01:21:59.226  1659  1659 I KeyboardViewHelper: KeyboardViewHelper.getView():178 Get view with height ratio:1.000000
+11-19 01:21:59.240  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.241  1659  1659 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():154 Tooltip with id undo_access_point_promotion_banner not found in tooltipManager.
+11-19 01:21:59.241  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.getKeyboardInitialStates():131
+11-19 01:21:59.241  1659  1659 W Keyboard: Keyboard.getKeyboardViewHelper():597 null helper is returned: keyboardDef=kze{processedConditions={enable_more_candidates_view_for_multilingual=false, layout_9key_split=false, enable_secondary_symbols=false, language=en-US, deprecate_long_press_space_for_ime_picker=false, expressions=normal, enable_access_points_in_password_number=false, show_suggestions=true, enable_flick_symbols=true, variant=qwerty, device=phone, keyboard_mode=normal, show_secondary_digits=false, enable_preemptive_decode=true, rtl_layout=false}, globalConditions={global_theme_key=theme_!gsf_!pgsans_!pgsf_!use_system_font_BORDER=true_FLAVOR_DPI=XXHDPI_KEYBOARD_WIDTH_CATEGORY=NORMAL_LIGHT_THEME=true_PHYSICAL_DIAGONAL=6.1297245_SCREEN_SHORTEST_WIDTH=411_SCREEN_SHORTEST_WIDTH_NO_SCALE=411_bottom4dp_enable_google_fonts_icons=true_enable_popup_on_keypress=true_keyboard_redesign_google_sans=true_noshadow_overlay_builtin_dynamic_color_light_base.binarypb:gm3-light-fffaf8ff-ff495d92-82b625f90d810779661adb8ce93b5ac5_silkpopup_unify_function_key_color=true, global_locale=en_US, global_density_dpi=420, global_orientation=1}, className=.latin.keyboard.LatinPasswordKeyboard, resourceIds=[#0x7f17065e, #0x7f1708dc, #0x7f17071c], initialStates=0, keyboardViewDefs=[kzt{direction=null, id=#0x7f0b0166, isScalable=true, layoutId=#0x7f0e0346, type=BODY, touchable=true, defaultShow=true}, kzt{direction=null, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e01db, type=FLOATING_CANDIDATES, touchable=false, defaultShow=false}, kzt{direction=LOCALE, id=#0x7f0b0166, isScalable=false, layoutId=#0x7f0e04d8, type=HEADER, touchable=true, defaultShow=true}], persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e05ce, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[kkl@2e8f7ef, kkl@a9692fc, kkl@dcd8d85, null], context.getResources().getConfiguration(): {1.0 ?mcc0mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.9 fontWeightAdjustment=0}
+11-19 01:21:59.242  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.242  1659  1659 I KeyboardWrapper: KeyboardWrapper.activateKeyboard():562 activateKeyboard(): type=prime, status=1, imeDef=kyj{stringId=password, language=und-Latn-x-password, languageTag=und-Latn-x-password, processedConditions={variant=qwerty, enable_access_points_in_password_number=false, enable_number_row=false, device=phone}, className=com.google.android.libraries.inputmethod.ime.password.PasswordIme, label=2132019061, keyEventInterpreter=null, inlineComposing=true, autoCapital=true, announceAutoSelectedCandidate=true, statusIcon=0, primeKeyboardType=SOFT, indicatorIcon=0, indicatorLabel=null, displayAppCompletions=false, extraValues=kyb{}, processors=lac@74826c6, unacceptableMetaKeys=4098, languageSpecificSettings=0, asciiCapable=false, alwaysShowSuggestions=false, useAsciiPasswordKeyboard=false, secondaryIme=null, keyboardGroupDef=kzl@8ad0687, phenotypeFlagId=0, localizationLanguageTag=null, supportsInlineSuggestion=false}
+11-19 01:21:59.242  1659  1659 I AndroidIME: InputBundleManager.startInput():361 startInput() with kzp[keyboardType=prime, payload=null]
+11-19 01:21:59.242  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onDeactivate():104
+11-19 01:21:59.243  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():122 shutdown()
+11-19 01:21:59.243  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onActivate():70
+11-19 01:21:59.249  1659  1659 I CrowdsourceExtension: CrowdsourceExtension.checkIfDefaultBrowserIsAllowed():109 Failed to get default browser. The default browser may be deactivated.
+11-19 01:21:59.251  1659  1659 I NewLanguagePromptExtension: NewLanguagePromptExtension.onActivate():186 Not activated NewLanguagePromptExtension: not a normal text input box.
+11-19 01:21:59.252  1659  1659 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020165, callback=cbb@6914531, lastModifier=2, keyCodes=[56], actions=[0]}
+11-19 01:21:59.252  1659  1659 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():182 Unregister key sequence lsr{labelResId=2132020165, callback=cbb@3770f84, lastModifier=0, keyCodes=[317], actions=[0]}
+11-19 01:21:59.252  1659  1659 I HardKeyTracker: HardKeyTracker.registerKeySequence():138 Register key sequence lsr{labelResId=2132020165, callback=cbb@8de917, lastModifier=2, keyCodes=[56], actions=[0]}
+11-19 01:21:59.253  1659  1659 I HardKeyTracker: HardKeyTracker.registerKeySequence():138 Register key sequence lsr{labelResId=2132020165, callback=cbb@2c1d922, lastModifier=0, keyCodes=[317], actions=[0]}
+11-19 01:21:59.254  6679  6716 D ProfileInstaller: Installing profile for com.example.meenabazar
+11-19 01:21:59.254  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():100 cancelShutdown()
+11-19 01:21:59.254  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():112 syncLanguagePacks()
+11-19 01:21:59.255  1659  1659 I VoiceInputManager: VoiceInputManager.onKeyboardActivated():1023 onKeyboardActivated() [UD]
+11-19 01:21:59.255  1659  1659 I AccessoryInputModeManager: AccessoryInputModeManager.onModeStarted():322 Accessory input mode started: null
+11-19 01:21:59.258  1659  1659 I ProactiveUndoTriggerExtension: ProactiveUndoTriggerExtension.eventConsumer$lambda$0():125 kyp{intention=null, keyCode=-10160, DEACTIVATE_SUPPLEMENTARY_KEYBOARD, data=accessory_candidates_consumer}
+11-19 01:21:59.258  1659  1659 W SupplementaryKeyboardsWrapper: SupplementaryKeyboardsWrapper.deactivateKeyboard():160 keyboard accessory_candidates_consumer is not activated before!
+11-19 01:21:59.259  1659  1659 I KeyboardModeUtils: KeyboardModeUtils.getKeyboardBottomOffset():437 inch: 0.000000 ydpi: 420.000000 adjustKeyboardBottomByDisplaySize: false currentDensityDpi: 420 defaultDensityDpi: 420 keyboardBottomToScreenPx: 0 keyboardBottomToNavBarPx: -126 navBarHeight: 126
+11-19 01:21:59.260  1659  1659 I ResizableKeyboardModeController: ResizableKeyboardModeController.getKeyboardBottomOffset():182 currentPrimeKeyboardType:SOFT keyboardBottomOffset:0 navBarHeight:126 isInLandscape:false
+11-19 01:21:59.260  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.264  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.265  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.267  1659  1659 W ExtensionWrapper: ExtensionWrapper.setExtensionViewVisibility():801 interface koa is not activate
+11-19 01:21:59.270  1659  1659 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+11-19 01:21:59.271  1659  1659 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomaticallyInCurrentInputBox():469 No private IME option set to start voice input.
+11-19 01:21:59.279  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.279  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.279  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notifyWithWindow():166
+11-19 01:21:59.280  1659  1659 I WindowMetricsNotification: WindowMetricsNotification.notify():159 mub[bounds=Rect(0, 63 - 1080, 2400), insets=Rect(0, 0 - 0, 126), densityDpi=420, smallestScreenWidthDp=411, displayWidth=1080, displayHeight=2400, xdpi=420.0, ydpi=420.0, isTrustable=true, displayId=0]; DisplayMetrics{density=2.625, width=1080, height=2400, scaledDensity=2.625, xdpi=420.0, ydpi=420.0}
+11-19 01:21:59.287  1659  1659 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():1524
+11-19 01:21:59.288  1659  1659 I GlobeKeyExtension: GlobeKeyExtension.onDeactivate():104
+11-19 01:21:59.322  1659  1659 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():122 shutdown()
+11-19 01:21:59.323  1659  1659 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():154 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+11-19 01:21:59.324  1659  1659 I AndroidIME: AbstractIme.onDeactivate():203 PasswordIme.onDeactivate()
+11-19 01:21:59.325  1659  1659 I ImeTracker: system_server:b3ca722f: onHidden
+11-19 01:21:59.328  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=HEADER keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{e1eb6e9 V.E...... .......D 0,0-1080,116}
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I GoogleInputMethodService: GoogleInputMethodService$1.onKeyboardViewShown():312 onKeyboardViewShown: keyboardType=prime, keyboardViewType=BODY keyboardView=com.google.android.libraries.inputmethod.widgets.SoftKeyboardView{b7b3e17 V.E...... ........ 0,0-1080,641}
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I NewLanguagePromptExtension: NewLanguagePromptExtension$1.onKeyboardViewShown():86 Not show new language banner: not prime keyboard, or the extension not activated.
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.331  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.335  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.336  1659  1659 I KeyboardHeightUtil: KeyboardHeightUtil.calculateMaxKeyboardBodyHeight():46 leave 281 height for app when ime window height:2211, header height:116 and isFullscreenMode:false, so the max keyboard body height is:1814
+11-19 01:21:59.363  1659  4539 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():161 maybeScheduleAutoPackDownloadForFallback()
+11-19 01:21:59.375  1659  4539 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():198 maybeScheduleAutoPackDownload() for language tag en-US
+11-19 01:21:59.419  1659  2231 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():510 No input action collection in this session, skip logging.
+11-19 01:21:59.546  6679  6679 W FrameTracker: Missed SF frame:JANK_COMPOSER, 29183, 132861121, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.example.meenabazar>
+11-19 01:21:59.562   716  1805 I system_server: AssetManager2(0x77a07ef27e58) locale list changing from [] to [en-US]
+11-19 01:21:59.562   716  1805 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10223, packageName = null, attributionTag = null, token = android.os.Binder@2d1030d, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-19 01:21:59.576   538   646 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-19 01:21:59.576  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: PAUSED
+11-19 01:21:59.577  6679  6679 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.meenabazar.MainActivity@cdfae27
+11-19 01:21:59.588  1168  1294 I ndroid.systemui: AssetManager2(0x77a07eed4b18) locale list changing from [] to [en-US]
+11-19 01:21:59.595   716   745 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10223, packageName = null, attributionTag = null, token = android.os.Binder@2d1030d, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-19 01:21:59.599  1168  1296 D SplashScreenView: Build android.window.SplashScreenView{6763939 V.E...... ......ID 0,0-0,0}
+11-19 01:21:59.599  1168  1296 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-19 01:21:59.599  1168  1296 D SplashScreenView: Branding: view: android.view.View{dbeb7e G.ED..... ......I. 0,0-0,0 #1020541 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-19 01:21:59.599   538   538 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-19 01:21:59.611   466   466 D Zygote  : Forked child process 6717
+11-19 01:21:59.616   716   745 W IPCThreadState: Sending oneway calls to frozen process.
+11-19 01:21:59.616   716   745 W IPCThreadState: Sending oneway calls to frozen process.
+11-19 01:21:59.648  6717  6717 I meenabazar.test: Late-enabling -Xcheck:jni
+11-19 01:21:59.705  6717  6717 I meenabazar.test: Using CollectorTypeCMC GC.
+11-19 01:21:59.706  6717  6717 W meenabazar.test: Unexpected CPU variant for x86: x86_64.
+11-19 01:21:59.706  6717  6717 W meenabazar.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-19 01:21:59.713   547   559 I adbd    : jdwp connection from 6717
+11-19 01:21:59.792  1168  1254 I ndroid.systemui: AssetManager2(0x77a07eee25d8) locale list changing from [] to [en-US]
+11-19 01:21:59.793  1168  1254 I ndroid.systemui: AssetManager2(0x77a07eee09b8) locale list changing from [] to [en-US]
+11-19 01:21:59.800   716   746 I ImeTracker: system_server:3f1a9d2e: onRequestShow at ORIGIN_SERVER reason CONTROLS_CHANGED fromUser false
+11-19 01:21:59.813  6679  6679 I ImeTracker: system_server:3f1a9d2e: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+11-19 01:21:59.815  6679  6679 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-19 01:21:59.825  6717  6717 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-19 01:21:59.839  1659  1659 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():154 Tooltip with id undo_access_point_promotion_banner not found in tooltipManager.
+11-19 01:21:59.847   716  1805 I ImeTracker: system_server:1e33f220: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-19 01:21:59.855   716   745 I ImeTracker: system_server:1e33f220: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-19 01:21:59.948  6717  6717 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-19 01:21:59.950  6717  6717 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~WBeDVe3DaA1nrPIMnoGCLw==/com.example.meenabazar.test-vmSfDy__AXfZuRznEOASMA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.meenabazar.test
+11-19 01:21:59.952  6717  6717 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-19 01:21:59.955  6717  6717 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~WBeDVe3DaA1nrPIMnoGCLw==/com.example.meenabazar.test-vmSfDy__AXfZuRznEOASMA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.meenabazar.test
+11-19 01:21:59.972  5117  5117 I avrd    : (REDACTED) Starting %s background task %s.
+11-19 01:21:59.978  6717  6717 D nativeloader: Configuring clns-11 for other apk /data/app/~~WBeDVe3DaA1nrPIMnoGCLw==/com.example.meenabazar.test-vmSfDy__AXfZuRznEOASMA==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~WBeDVe3DaA1nrPIMnoGCLw==/com.example.meenabazar.test-vmSfDy__AXfZuRznEOASMA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.meenabazar.test
+11-19 01:21:59.979  6717  6717 D CompatChangeReporter: Compat change id reported: 202956589; UID 10223; state: ENABLED
+11-19 01:21:59.981  6717  6717 I meenabazar.test: AssetManager2(0x77a07ee94a18) locale list changing from [] to [en-US]
+11-19 01:22:00.005  6717  6717 V GraphicsEnvironment: Currently set values for:
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment: com.example.meenabazar.test is not listed in per-application setting
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment: com.example.meenabazar.test is not listed in ANGLE allowlist or settings, returning default
+11-19 01:22:00.009  6717  6717 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-19 01:22:00.042  6717  6717 I meenabazar.test: AssetManager2(0x77a07ee91818) locale list changing from [] to [en-US]
+11-19 01:22:00.063  6717  6717 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-19 01:22:00.088  5117  5164 W acte    : Account id is not cached
+11-19 01:22:00.088  6717  6717 D CompatChangeReporter: Compat change id reported: 279646685; UID 10223; state: ENABLED
+11-19 01:22:00.093   716   734 I WifiService: getWifiEnabledState uid=10147 state=3
+11-19 01:22:00.094  6717  6717 D CompatChangeReporter: Compat change id reported: 309578419; UID 10223; state: ENABLED
+11-19 01:22:00.096  6717  6717 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-19 01:22:00.097  5117  5861 I aukg    : Using pair HTTP connection
+11-19 01:22:00.113  5117  5256 I abhp    : [Upload] Connected
+11-19 01:22:00.129  5117  5256 I aukg    : Using pair HTTP connection
+11-19 01:22:00.131  5117  5117 E rdv     : onError
+11-19 01:22:00.131  5117  5117 E rdv     : afvv: errorCode: 65561, engine: 2
+11-19 01:22:00.131  5117  5117 E rdv     : 	at auki.a(PG:23)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at abhl.hv(PG:13)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at fyqd.e(PG:9)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at ahbi.d(PG:154)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at ahbi.iW(PG:26)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at abhm.c(PG:102)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at abhn.run(PG:1)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at aggv.run(PG:20)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at aght.run(PG:3)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at aght.run(PG:3)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at java.lang.Thread.run(Thread.java:1119)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at aggj.run(PG:42)
+11-19 01:22:00.131  5117  5117 E rdv     : Caused by: afvx: errorCode: 65586, engine: 2
+11-19 01:22:00.131  5117  5117 E rdv     : 	at abhl.hv(PG:6)
+11-19 01:22:00.131  5117  5117 E rdv     : 	... 14 more
+11-19 01:22:00.131  5117  5117 E rdv     : Caused by: afvt: errorCode: 401, engine: 2
+11-19 01:22:00.131  5117  5117 E rdv     : 	at rds.b(PG:30)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at abii.hJ(PG:11)
+11-19 01:22:00.131  5117  5117 E rdv     : 	at ahbi.d(PG:129)
+11-19 01:22:00.131  5117  5117 E rdv     : 	... 12 more
+11-19 01:22:00.136  6717  6717 D CompatChangeReporter: Compat change id reported: 352594277; UID 10223; state: ENABLED
+11-19 01:22:00.139   716   734 I WifiService: getWifiEnabledState uid=10147 state=3
+11-19 01:22:00.139  5117  5257 I abhp    : [Upload] Connected
+11-19 01:22:00.147  5117  5117 W qrh     : Failed to sync device settings.
+11-19 01:22:00.148  5117  5117 I qrh     : Retrying to sync device settings.
+11-19 01:22:00.151   716   734 I WifiService: getWifiEnabledState uid=10147 state=3
+11-19 01:22:00.157  5117  5117 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=480000, deadline=480000). The functional constraints are not likely to be satisfied when the job runs.
+11-19 01:22:00.157  6717  6717 D CompatChangeReporter: Compat change id reported: 349153669; UID 10223; state: ENABLED
+11-19 01:22:00.169  6717  6717 W HWUI    : Unknown dataspace 0
+11-19 01:22:00.170   716   734 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=480000, deadline=480000). The functional constraints are not likely to be satisfied when the job runs.
+11-19 01:22:00.180   716   734 W JobInfo : Job 'com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService#-353' has a deadline with functional constraints and an extremely short time window of 0 ms (delay=480000, deadline=480000). The functional constraints are not likely to be satisfied when the job runs.
+11-19 01:22:00.221  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: STOPPED
+11-19 01:22:00.221  6679  6679 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.meenabazar.MainActivity@cdfae27
+11-19 01:22:00.243  6679  6679 D LifecycleMonitor: Lifecycle status change: com.example.meenabazar.MainActivity@cdfae27 in: DESTROYED
+11-19 01:22:00.243  6679  6679 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-19 01:22:00.243  6679  6679 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@29a2387
+11-19 01:22:00.252  6679  6679 D ViewRootImpl: Skipping stats log for color mode
+11-19 01:22:00.253   716  1805 I ImeTracker: system_server:a4a2372c: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+11-19 01:22:00.255   716   745 I ImeTracker: system_server:a4a2372c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-19 01:22:00.260  1439  1439 D RecentsView: onTaskRemoved: 32, not handling task stack changes
+11-19 01:22:00.260  1439  1439 D RecentsView: onTaskRemoved: 32, not handling task stack changes
+11-19 01:22:00.261  6717  6732 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-19 01:22:00.262  6717  6732 I EGL_emulation: Opening libGLESv2_emulation.so
+11-19 01:22:00.275   463   491 I netd    : tetherGetStats() -> {[]} <0.26ms>
+11-19 01:22:00.280  6717  6732 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-19 01:22:00.287  6679  6695 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@7c60af8]
+11-19 01:22:00.289  6679  6695 I TestRunner: finished: guestCanSearchAndReturnToCatalogUsingSystemBack(com.example.meenabazar.ShoppingFlowTest)

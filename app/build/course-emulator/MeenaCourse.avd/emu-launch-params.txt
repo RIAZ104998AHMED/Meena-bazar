@@ -1,0 +1,14 @@
+C:\AndroidProjects\meena bazar
+C:\Users\HP\AppData\Local\Android\Sdk\emulator\emulator.exe
+11
+C:\Users\HP\AppData\Local\Android\Sdk\emulator\emulator.exe
+-avd
+MeenaCourse
+-no-window
+-no-audio
+-no-boot-anim
+-no-snapshot
+-gpu
+swiftshader
+-port
+5556

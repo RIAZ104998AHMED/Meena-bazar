@@ -1,0 +1,52 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.example.meenabazar"
+    test_package: "com.example.meenabazar.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.example.meenabazar/additional_test_output"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "C:\\AndroidProjects\\meena bazar\\app\\build\\outputs\\apk\\debug\\app-debug.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+apks_to_install {
+  apk_paths: "C:\\AndroidProjects\\meena bazar\\app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [C:\AndroidProjects\meena bazar\app\build\outputs\apk\debug\app-debug.apk] on device emulator-5556.
+INFO: Installing [C:\AndroidProjects\meena bazar\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk] on device emulator-5556.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.example.meenabazar/additional_test_output to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots
+INFO: Copying files from device to host: /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/bag.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\bag.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/checkout.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\checkout.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/order-confirmation.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\order-confirmation.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/product.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\product.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/registration.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\registration.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/storefront.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\storefront.png
+INFO: Copying /sdcard/Android/media/com.example.meenabazar/additional_test_output/screenshots/welcome.png to C:\AndroidProjects\meena bazar\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\MeenaCourse(AVD) - 16\screenshots\welcome.png
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.example.meenabazar for device emulator-5556.
+INFO: Uninstalling com.example.meenabazar.test for device emulator-5556.
+INFO: Execute com.example.meenabazar.ExampleInstrumentedTest.useAppContext: PASSED
+INFO: Execute com.example.meenabazar.ShoppingFlowTest.guestCanSearchAndReturnToCatalogUsingSystemBack: PASSED
+INFO: Execute com.example.meenabazar.ShoppingFlowTest.registrationReportsErrorsAndCanSwitchToLogin: PASSED
+INFO: Execute com.example.meenabazar.ShoppingFlowTest.jsonSnapshotRoundTripsAccountsCartAndOrders: PASSED
+INFO: Execute com.example.meenabazar.ShoppingFlowTest.fullGuestRegistrationCheckoutAndOrderHistoryFlow: PASSED

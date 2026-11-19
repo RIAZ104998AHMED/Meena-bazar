@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.meenabazar.ExampleInstrumentedTest" tests="5" failures="0" errors="0" skipped="0" time="23.813" timestamp="2026-11-18T18:22:18" hostname="localhost">
+  <properties>
+    <property name="device" value="MeenaCourse(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="useAppContext" classname="com.example.meenabazar.ExampleInstrumentedTest" time="0.023" />
+  <testcase name="guestCanSearchAndReturnToCatalogUsingSystemBack" classname="com.example.meenabazar.ShoppingFlowTest" time="6.201" />
+  <testcase name="registrationReportsErrorsAndCanSwitchToLogin" classname="com.example.meenabazar.ShoppingFlowTest" time="3.119" />
+  <testcase name="jsonSnapshotRoundTripsAccountsCartAndOrders" classname="com.example.meenabazar.ShoppingFlowTest" time="2.664" />
+  <testcase name="fullGuestRegistrationCheckoutAndOrderHistoryFlow" classname="com.example.meenabazar.ShoppingFlowTest" time="10.079" />
+</testsuite>

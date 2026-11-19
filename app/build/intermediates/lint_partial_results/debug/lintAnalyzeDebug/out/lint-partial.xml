@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.9.1" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.meenabazar.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.drawable.banner"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/banner.png"/>
+        <location id="R.drawable.cropped_circle_image"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/cropped_circle_image.png"/>
+        <location id="R.drawable.ic_launcher_background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_launcher_background.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="170"
+            endColumn="10"
+            endOffset="5605"/>
+        <location id="R.drawable.ic_launcher_foreground"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_launcher_foreground.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="30"
+            endColumn="10"
+            endOffset="1702"/>
+        <location id="R.drawable.signuplogo"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/signuplogo.png"/>
+        <entry
+            name="model"
+            string="color[brand_green(U)],drawable[authorize_logo(U),banner(D),cropped_circle_image(D),ic_brand(U),ic_brand_monochrome(U),ic_launcher_background(D),ic_launcher_foreground(D),ic_launcher_foreground_1(E),signuplogo(D)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U)],style[Theme_Meenabazar(U),Theme_Meenabazar_Splash(U),Theme_Material3_DayNight_NoActionBar(R),Theme_SplashScreen(R)],xml[data_extraction_rules(U),backup_rules(U)];7^8,a^0^4^5,b^0^4^5,d^f,e^10^4^d;;;"/>
+    </map>
+
+</incidents>

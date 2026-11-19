@@ -1,0 +1,65 @@
+com.example.meenabazar.app-resValues-0 C:\AndroidProjects\meena bazar\app\build\generated\res\resValues\debug
+com.example.meenabazar.app-packageDebugResources-1 C:\AndroidProjects\meena bazar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.meenabazar.app-packageDebugResources-2 C:\AndroidProjects\meena bazar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.meenabazar.app-debug-3 C:\AndroidProjects\meena bazar\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.meenabazar.app-debug-4 C:\AndroidProjects\meena bazar\app\src\debug\res
+com.example.meenabazar.app-main-5 C:\AndroidProjects\meena bazar\app\src\main\res
+com.example.meenabazar.app-material-1.12.0-6 C:\Users\HP\.gradle\caches\8.11.1\transforms\0303a66a7f9ed0fa630a99225c07e376\transformed\material-1.12.0\res
+com.example.meenabazar.app-lifecycle-viewmodel-ktx-2.8.7-7 C:\Users\HP\.gradle\caches\8.11.1\transforms\03a4f1605f3a8f0d0d95f36f9b91d633\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.example.meenabazar.app-customview-poolingcontainer-1.0.0-8 C:\Users\HP\.gradle\caches\8.11.1\transforms\040df91a0cccb167d6ae605478fef0e5\transformed\customview-poolingcontainer-1.0.0\res
+com.example.meenabazar.app-graphics-path-1.0.1-9 C:\Users\HP\.gradle\caches\8.11.1\transforms\07d41ce97b014a58ff2b38ee8187ead5\transformed\graphics-path-1.0.1\res
+com.example.meenabazar.app-core-ktx-1.15.0-10 C:\Users\HP\.gradle\caches\8.11.1\transforms\0a1a5fb434587c692b5afe611dff492c\transformed\core-ktx-1.15.0\res
+com.example.meenabazar.app-foundation-layout-release-11 C:\Users\HP\.gradle\caches\8.11.1\transforms\0ea6ddfa5920a2f759bdda4a703592fa\transformed\foundation-layout-release\res
+com.example.meenabazar.app-activity-ktx-1.10.1-12 C:\Users\HP\.gradle\caches\8.11.1\transforms\143e3c6c8e9844e4c62c7999dd337a27\transformed\activity-ktx-1.10.1\res
+com.example.meenabazar.app-savedstate-ktx-1.2.1-13 C:\Users\HP\.gradle\caches\8.11.1\transforms\165e85bb1a4069e25fbfee1b2603fd6f\transformed\savedstate-ktx-1.2.1\res
+com.example.meenabazar.app-core-splashscreen-1.0.1-14 C:\Users\HP\.gradle\caches\8.11.1\transforms\16b6f65fa9b9fa827bec0b9b17e2149a\transformed\core-splashscreen-1.0.1\res
+com.example.meenabazar.app-constraintlayout-2.0.1-15 C:\Users\HP\.gradle\caches\8.11.1\transforms\17db9cbcfc3b29cf549991c683912f5f\transformed\constraintlayout-2.0.1\res
+com.example.meenabazar.app-profileinstaller-1.4.0-16 C:\Users\HP\.gradle\caches\8.11.1\transforms\18b0b524baa9ff0ab019dd18735c23d1\transformed\profileinstaller-1.4.0\res
+com.example.meenabazar.app-lifecycle-livedata-core-2.8.7-17 C:\Users\HP\.gradle\caches\8.11.1\transforms\1904a91b9a6d472c8319c877948137b8\transformed\lifecycle-livedata-core-2.8.7\res
+com.example.meenabazar.app-ui-util-release-18 C:\Users\HP\.gradle\caches\8.11.1\transforms\22167d6668283ae291bcc0687bd3d77c\transformed\ui-util-release\res
+com.example.meenabazar.app-runtime-saveable-release-19 C:\Users\HP\.gradle\caches\8.11.1\transforms\24b4b78b5621a5d5f76bf21ec9bd5095\transformed\runtime-saveable-release\res
+com.example.meenabazar.app-fragment-1.3.6-20 C:\Users\HP\.gradle\caches\8.11.1\transforms\259aa4213c95e16e0272b62e7e13e97b\transformed\fragment-1.3.6\res
+com.example.meenabazar.app-lifecycle-process-2.8.7-21 C:\Users\HP\.gradle\caches\8.11.1\transforms\287b5c9670bb8448875a1e57b19159e7\transformed\lifecycle-process-2.8.7\res
+com.example.meenabazar.app-cardview-1.0.0-22 C:\Users\HP\.gradle\caches\8.11.1\transforms\292c91c0edb99886d5780115b13186de\transformed\cardview-1.0.0\res
+com.example.meenabazar.app-lifecycle-viewmodel-release-23 C:\Users\HP\.gradle\caches\8.11.1\transforms\3098927eb2076ce3920204b9751e908a\transformed\lifecycle-viewmodel-release\res
+com.example.meenabazar.app-ui-tooling-data-release-24 C:\Users\HP\.gradle\caches\8.11.1\transforms\34b312badc6552aa26bc6640bf1039ef\transformed\ui-tooling-data-release\res
+com.example.meenabazar.app-lifecycle-runtime-compose-release-25 C:\Users\HP\.gradle\caches\8.11.1\transforms\34bec380a901b5ee9737f64f2d4491fa\transformed\lifecycle-runtime-compose-release\res
+com.example.meenabazar.app-lifecycle-runtime-release-26 C:\Users\HP\.gradle\caches\8.11.1\transforms\3604b9c11c729253a1e2103282b4afda\transformed\lifecycle-runtime-release\res
+com.example.meenabazar.app-drawerlayout-1.1.1-27 C:\Users\HP\.gradle\caches\8.11.1\transforms\36c2d069927e00ba5ce9cea0bfb9f695\transformed\drawerlayout-1.1.1\res
+com.example.meenabazar.app-savedstate-1.2.1-28 C:\Users\HP\.gradle\caches\8.11.1\transforms\372228b565ae83e5ca56ccf34fe18360\transformed\savedstate-1.2.1\res
+com.example.meenabazar.app-core-viewtree-1.0.0-29 C:\Users\HP\.gradle\caches\8.11.1\transforms\3af99b953a0a5178ba9f5dc73e7ea055\transformed\core-viewtree-1.0.0\res
+com.example.meenabazar.app-ui-text-release-30 C:\Users\HP\.gradle\caches\8.11.1\transforms\47d9a23b6dd65c6c50c8387cca0e986d\transformed\ui-text-release\res
+com.example.meenabazar.app-activity-compose-1.10.1-31 C:\Users\HP\.gradle\caches\8.11.1\transforms\57298f82fb09c9b25bdd1b8654a6b791\transformed\activity-compose-1.10.1\res
+com.example.meenabazar.app-core-runtime-2.2.0-32 C:\Users\HP\.gradle\caches\8.11.1\transforms\5bbed92d7cdc99e9ceeb54f31c282754\transformed\core-runtime-2.2.0\res
+com.example.meenabazar.app-ui-tooling-release-33 C:\Users\HP\.gradle\caches\8.11.1\transforms\5c0c4748a4c22997e03489ab24cd4276\transformed\ui-tooling-release\res
+com.example.meenabazar.app-animation-core-release-34 C:\Users\HP\.gradle\caches\8.11.1\transforms\658304489bfdeaeb7c8a5ed914b7817b\transformed\animation-core-release\res
+com.example.meenabazar.app-runtime-release-35 C:\Users\HP\.gradle\caches\8.11.1\transforms\67ceb95b4ecac5c0f615a635ec2ea5f8\transformed\runtime-release\res
+com.example.meenabazar.app-transition-1.5.0-36 C:\Users\HP\.gradle\caches\8.11.1\transforms\6c3721b789e72df6d83b09fdb2c0f8d7\transformed\transition-1.5.0\res
+com.example.meenabazar.app-material-release-37 C:\Users\HP\.gradle\caches\8.11.1\transforms\6c8badef642f48ae50d9e27a47c7be7d\transformed\material-release\res
+com.example.meenabazar.app-emoji2-1.3.0-38 C:\Users\HP\.gradle\caches\8.11.1\transforms\705379e2b45280643b2e2e96d1e6e25e\transformed\emoji2-1.3.0\res
+com.example.meenabazar.app-emoji2-views-helper-1.3.0-39 C:\Users\HP\.gradle\caches\8.11.1\transforms\72c1efb73f09e8466a32bba6a14185cd\transformed\emoji2-views-helper-1.3.0\res
+com.example.meenabazar.app-ui-unit-release-40 C:\Users\HP\.gradle\caches\8.11.1\transforms\8333d1c5539700169fdad06589d2a8ca\transformed\ui-unit-release\res
+com.example.meenabazar.app-lifecycle-runtime-ktx-release-41 C:\Users\HP\.gradle\caches\8.11.1\transforms\8d2874ee7dae22cbf5db528e725bac97\transformed\lifecycle-runtime-ktx-release\res
+com.example.meenabazar.app-foundation-release-42 C:\Users\HP\.gradle\caches\8.11.1\transforms\94db6881ee01737803dfdf9df3f92942\transformed\foundation-release\res
+com.example.meenabazar.app-startup-runtime-1.1.1-43 C:\Users\HP\.gradle\caches\8.11.1\transforms\96945ec7820ce2d84e0a64e09826a10f\transformed\startup-runtime-1.1.1\res
+com.example.meenabazar.app-ui-release-44 C:\Users\HP\.gradle\caches\8.11.1\transforms\976dd71a7cb567acbd9e9154e2a3568a\transformed\ui-release\res
+com.example.meenabazar.app-animation-release-45 C:\Users\HP\.gradle\caches\8.11.1\transforms\9e47806889e6580036af4edad62dabec\transformed\animation-release\res
+com.example.meenabazar.app-ui-graphics-release-46 C:\Users\HP\.gradle\caches\8.11.1\transforms\a6cf6ce70636113701c4b9aedd77fc64\transformed\ui-graphics-release\res
+com.example.meenabazar.app-lifecycle-viewmodel-savedstate-2.8.7-47 C:\Users\HP\.gradle\caches\8.11.1\transforms\acbeabef1e8513c7aa07203674bd69e7\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.example.meenabazar.app-tracing-1.2.0-48 C:\Users\HP\.gradle\caches\8.11.1\transforms\ad79f9ff013533f454a4309a06d3847b\transformed\tracing-1.2.0\res
+com.example.meenabazar.app-material-ripple-release-49 C:\Users\HP\.gradle\caches\8.11.1\transforms\ae649dfdfd6c9bde9471adffc4897ebc\transformed\material-ripple-release\res
+com.example.meenabazar.app-lifecycle-livedata-2.8.7-50 C:\Users\HP\.gradle\caches\8.11.1\transforms\aec1e726b5349661ddd8739dd1e91b49\transformed\lifecycle-livedata-2.8.7\res
+com.example.meenabazar.app-annotation-experimental-1.4.1-51 C:\Users\HP\.gradle\caches\8.11.1\transforms\b8761469d00d761bc76c8da2f7e1a9e5\transformed\annotation-experimental-1.4.1\res
+com.example.meenabazar.app-material-icons-core-release-52 C:\Users\HP\.gradle\caches\8.11.1\transforms\bb25630362891abad6b8f5fd3874b39a\transformed\material-icons-core-release\res
+com.example.meenabazar.app-ui-geometry-release-53 C:\Users\HP\.gradle\caches\8.11.1\transforms\bd75e2f7e8267e8b41aec1c79c390f1b\transformed\ui-geometry-release\res
+com.example.meenabazar.app-viewpager2-1.0.0-54 C:\Users\HP\.gradle\caches\8.11.1\transforms\c231ee61b3efbecb0cb7f609dd05d354\transformed\viewpager2-1.0.0\res
+com.example.meenabazar.app-recyclerview-1.1.0-55 C:\Users\HP\.gradle\caches\8.11.1\transforms\c2fc9e9d271dcdd2753cfc1fa4a48c24\transformed\recyclerview-1.1.0\res
+com.example.meenabazar.app-activity-1.10.1-56 C:\Users\HP\.gradle\caches\8.11.1\transforms\c3816b6404ba1d96cdb8d21cb78ef623\transformed\activity-1.10.1\res
+com.example.meenabazar.app-appcompat-1.6.1-57 C:\Users\HP\.gradle\caches\8.11.1\transforms\c9ffb81d72a8be0374269b4eb5ce387a\transformed\appcompat-1.6.1\res
+com.example.meenabazar.app-appcompat-resources-1.6.1-58 C:\Users\HP\.gradle\caches\8.11.1\transforms\e0d88be14aa30be9201e0338b7430c72\transformed\appcompat-resources-1.6.1\res
+com.example.meenabazar.app-material3-release-59 C:\Users\HP\.gradle\caches\8.11.1\transforms\e2a5a47c3542cfe734a11063499ed01e\transformed\material3-release\res
+com.example.meenabazar.app-ui-tooling-preview-release-60 C:\Users\HP\.gradle\caches\8.11.1\transforms\ed6dc936da1b57fc3c986a7ab37419f3\transformed\ui-tooling-preview-release\res
+com.example.meenabazar.app-ui-test-manifest-1.7.0-61 C:\Users\HP\.gradle\caches\8.11.1\transforms\ef5c2b4a9bcda039310b1d8ee88a6599\transformed\ui-test-manifest-1.7.0\res
+com.example.meenabazar.app-core-1.15.0-62 C:\Users\HP\.gradle\caches\8.11.1\transforms\ef92352df33a6e74a37dd6861cc44519\transformed\core-1.15.0\res
+com.example.meenabazar.app-lifecycle-livedata-core-ktx-2.8.7-63 C:\Users\HP\.gradle\caches\8.11.1\transforms\f19f7a50ea933c3be070dae578ef1c59\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.example.meenabazar.app-coordinatorlayout-1.1.0-64 C:\Users\HP\.gradle\caches\8.11.1\transforms\fb7c77bff26078bb87724567d19fdaa1\transformed\coordinatorlayout-1.1.0\res

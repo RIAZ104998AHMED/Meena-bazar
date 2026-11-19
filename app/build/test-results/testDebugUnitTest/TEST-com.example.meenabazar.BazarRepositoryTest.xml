@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.meenabazar.BazarRepositoryTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-18T18:20:11" hostname="DESKTOP-NEJH27R" time="0.844">
+  <properties/>
+  <testcase name="sameVariantIncrementsQuantityButSizesRemainSeparate" classname="com.example.meenabazar.BazarRepositoryTest" time="0.014"/>
+  <testcase name="registrationStoresHashAndRestoresSession" classname="com.example.meenabazar.BazarRepositoryTest" time="0.211"/>
+  <testcase name="guestCannotPlaceOrder" classname="com.example.meenabazar.BazarRepositoryTest" time="0.001"/>
+  <testcase name="samePasswordGetsDifferentSalts" classname="com.example.meenabazar.BazarRepositoryTest" time="0.154"/>
+  <testcase name="failedWriteDoesNotLoseBasketOrCreateOrder" classname="com.example.meenabazar.BazarRepositoryTest" time="0.046"/>
+  <testcase name="guestBasketMergesIntoAccountAndIsCleared" classname="com.example.meenabazar.BazarRepositoryTest" time="0.066"/>
+  <testcase name="cartAndOrdersStayPrivateBetweenCustomers" classname="com.example.meenabazar.BazarRepositoryTest" time="0.111"/>
+  <testcase name="invalidDeliveryDetailsDoNotClearCart" classname="com.example.meenabazar.BazarRepositoryTest" time="0.041"/>
+  <testcase name="wrongPasswordAndUnknownAccountCannotLogIn" classname="com.example.meenabazar.BazarRepositoryTest" time="0.113"/>
+  <testcase name="removingLastItemEmptiesBasketAndDeliveryFee" classname="com.example.meenabazar.BazarRepositoryTest" time="0.001"/>
+  <testcase name="orderAtomicallySnapshotsPricesAndClearsCart" classname="com.example.meenabazar.BazarRepositoryTest" time="0.046"/>
+  <testcase name="invalidRegistrationIsNeverSaved" classname="com.example.meenabazar.BazarRepositoryTest" time="0.001"/>
+  <testcase name="invalidVariantsAndExcessQuantitiesAreRejected" classname="com.example.meenabazar.BazarRepositoryTest" time="0.002"/>
+  <testcase name="duplicateAccountIsRejectedIgnoringEmailCase" classname="com.example.meenabazar.BazarRepositoryTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

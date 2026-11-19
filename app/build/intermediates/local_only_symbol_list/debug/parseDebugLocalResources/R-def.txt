@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color brand_green
+drawable authorize_logo
+drawable banner
+drawable cropped_circle_image
+drawable ic_brand
+drawable ic_brand_monochrome
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable signuplogo
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Meenabazar
+style Theme.Meenabazar.Splash
+xml backup_rules
+xml data_extraction_rules
